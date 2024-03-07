@@ -14,3 +14,6 @@ function App() {
 }
 
 export default App;
+
+// NOTES
+// DESIGN THIS IN FIGMA MAN
