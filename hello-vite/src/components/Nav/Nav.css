@@ -1,0 +1,17 @@
+.nav {
+  margin-bottom: 10px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 75px;
+}
+
+.nav__list-item {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+}
