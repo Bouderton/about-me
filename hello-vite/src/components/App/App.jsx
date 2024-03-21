@@ -3,14 +3,16 @@ import { useState } from "react";
 // import viteLogo from "./vite.svg";
 import "../../../src/index.css";
 import Header from "../Header/Header";
+import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 
 function App() {
   return (
     <>
       <div className="page">
+      <Nav/>
       <Header />
-      <h1>Hello</h1>
+      <h1>Content</h1>
       <Footer/>
       </div>
     </>
