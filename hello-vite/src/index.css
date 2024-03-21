@@ -67,6 +67,8 @@ button:focus-visible {
   }
 } */
 
+@import url("./vendor/normalize.css");
+
 @import url("./components/Header/Header.css");
 
 @import url("./components/App/App.css");
