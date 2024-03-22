@@ -7,7 +7,7 @@ const Nav = () => {
         <li className="nav__list-item">Home</li>
         <li className="nav__list-item">Skills</li>
         <li className="nav__list-item">My Story</li>
-        <li className="nav__list-item">Resume</li>
+        <li className="nav__list-item">Projects</li>
         <li className="nav__list-item">Contact Me</li>
       </ul>
     </nav>
