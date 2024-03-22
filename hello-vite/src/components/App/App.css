@@ -46,6 +46,6 @@
 .page {
   margin: 0 auto;
   padding: 20px;
-  background-color: #22245b;
-  color: white;
+  background-color: grey;
+  color: black;
 }

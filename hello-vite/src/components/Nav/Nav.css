@@ -1,5 +1,7 @@
 .nav {
   margin-bottom: 10px;
+  background-color: #211e1e;
+  color: white;
 }
 
 .nav__list {
