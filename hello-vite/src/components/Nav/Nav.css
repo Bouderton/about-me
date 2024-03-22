@@ -4,28 +4,19 @@
   justify-content: space-between;
   background-color: #211e1e;
   color: white;
-  padding: 20px;
-}
-
-.navs__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10px;
-}
-
-.nav__links-image {
-  width: 20px;
+  padding: 15px;
 }
 
 .nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 75px;
+  align-items: center;
+  gap: 30px;
 }
 
 .nav__list-item {
@@ -33,4 +24,15 @@
   list-style: none;
   cursor: pointer;
   font-size: 18px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.nav__links-image {
+  width: 25px;
 }
