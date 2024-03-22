@@ -3,7 +3,7 @@ import { useState } from "react";
 // import viteLogo from "./vite.svg";
 import "../../../src/index.css";
 import Header from "../Header/Header";
-
+import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="page">
         <Header />
-        <h1>Content</h1>
+        <Main />
         <Footer />
       </div>
     </>
