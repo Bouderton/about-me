@@ -31,7 +31,14 @@ const Nav = () => {
               My Story
             </Link>
           </li>
-          <li className="nav__list-item">Projects</li>
+          <li className="nav__list-item">
+            <Link
+              to="/projects"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Projects
+            </Link>
+          </li>
           <li className="nav__list-item">Contact Me</li>
         </ul>
       </nav>

@@ -8,6 +8,7 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import Skills from "../Skills/Skills";
 import MyStory from "../MyStory/MyStory";
+import Projects from "../Projects/Projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/my-story" element={<MyStory />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
       </div>
