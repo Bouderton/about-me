@@ -1,14 +1,28 @@
 import React from "react";
 import "./Nav.css";
 import github from "../../images/github.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div className="nav__container">
       <nav className="nav">
         <ul className="nav__list">
-          <li className="nav__list-item">Home</li>
-          <li className="nav__list-item">Skills</li>
+          <li className="nav__list-item">
+            <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+              Home
+            </Link>
+          </li>
+
+          <li className="nav__list-item">
+            <Link
+              to="/skills"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Skills
+            </Link>
+          </li>
+
           <li className="nav__list-item">My Story</li>
           <li className="nav__list-item">Projects</li>
           <li className="nav__list-item">Contact Me</li>

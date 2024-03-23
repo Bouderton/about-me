@@ -6,13 +6,17 @@ import "../../../src/index.css";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
+import Skills from "../Skills/Skills";
 
 function App() {
   return (
     <>
       <div className="page">
         <Header />
-        <Main />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
         <Footer />
       </div>
     </>
