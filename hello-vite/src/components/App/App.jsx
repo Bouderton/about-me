@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import Skills from "../Skills/Skills";
 import MyStory from "../MyStory/MyStory";
 import Projects from "../Projects/Projects";
+import ContactMe from "../ContactMe/ContactMe";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/my-story" element={<MyStory />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact-me" element={<ContactMe />} />
         </Routes>
         <Footer />
       </div>

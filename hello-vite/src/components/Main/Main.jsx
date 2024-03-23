@@ -5,7 +5,7 @@ const Main = () => {
     <>
       <div className="main">
         <div className="main__container">
-          <p>Hello</p>
+          <p>Home</p>
         </div>
       </div>
     </>
