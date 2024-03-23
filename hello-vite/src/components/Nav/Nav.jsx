@@ -23,7 +23,14 @@ const Nav = () => {
             </Link>
           </li>
 
-          <li className="nav__list-item">My Story</li>
+          <li className="nav__list-item">
+            <Link
+              to="/my-story"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              My Story
+            </Link>
+          </li>
           <li className="nav__list-item">Projects</li>
           <li className="nav__list-item">Contact Me</li>
         </ul>
