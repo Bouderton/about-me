@@ -22,8 +22,8 @@
 .nav__list-item {
   text-decoration: none;
   list-style: none;
-  cursor: pointer;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .nav__links {
