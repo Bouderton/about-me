@@ -1,3 +1,8 @@
 .footer {
   font-size: 25px;
+  background-color: #211e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
 }
