@@ -8,9 +8,17 @@ function Header() {
       <header className="header">
         <video className="animation" src={loopedAnim} autoPlay loop muted />
         <div className="header__text">
-          <h1 className="header__title">Text</h1>
-          <p className="header__subtitle">More Text</p>
+          <h1 className="header__title">Ryan Khazal</h1>
+          <p className="header__subtitle">
+            Full-Stack Web Developer & 3D Artist
+          </p>
         </div>
+        {/* <div className="button__container">
+          <button type="text" className="button">
+            Click Me
+          </button>
+        </div> */}
+        {/* animated button thingy uhhhhhhh */}
       </header>
       <Nav />
     </>
