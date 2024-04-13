@@ -6,9 +6,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        <div className="header__anim">
-          <video className="animation" src={loopedAnim} autoPlay loop muted />
-        </div>
+        <video className="animation" src={loopedAnim} autoPlay loop muted />
         <div className="header__text">
           <h1 className="header__title">Text</h1>
           <p className="header__subtitle">More Text</p>
