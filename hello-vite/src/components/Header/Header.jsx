@@ -9,6 +9,10 @@ function Header() {
         <div className="header__anim">
           <video className="animation" src={loopedAnim} autoPlay loop muted />
         </div>
+        <div className="header__text">
+          <h1 className="header__title">Text</h1>
+          <p className="header__subtitle">More Text</p>
+        </div>
       </header>
       <Nav />
     </>

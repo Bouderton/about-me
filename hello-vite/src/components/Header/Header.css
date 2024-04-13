@@ -5,3 +5,19 @@
 .animation {
   width: 100%;
 }
+
+.header__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+
+.header__title {
+  margin: 0;
+  position: relative;
+}
+
+.header__subtitle {
+  margin: 0;
+}
