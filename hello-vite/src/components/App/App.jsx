@@ -22,3 +22,4 @@ export default App;
 
 // NOTES
 // DESIGN THIS IN FIGMA MAN
+// WE STARTIN OVER DAWG

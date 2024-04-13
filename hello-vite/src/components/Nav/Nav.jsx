@@ -16,8 +16,6 @@ const Nav = () => {
       </nav>
       <div className="nav__links">
         <img className="nav__links-image" src={github} alt="github logo" />
-        <img className="nav__links-image" src={github} alt="github logo" />
-        <img className="nav__links-image" src={github} alt="github logo" />
       </div>
     </div>
   );
