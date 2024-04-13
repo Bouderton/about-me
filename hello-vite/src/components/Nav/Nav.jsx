@@ -47,13 +47,19 @@ const Nav = () => {
               Contact Me
             </Link>
           </li>
+          <li className="nav__list-item">
+            <Link
+              to="/my-art"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              My Art
+            </Link>
+          </li>
         </ul>
       </nav>
-      <div className="nav__links">
+      {/* <div className="nav__links">
         <img className="nav__links-image" src={github} alt="github logo" />
-        <img className="nav__links-image" src={github} alt="github logo" />
-        <img className="nav__links-image" src={github} alt="github logo" />
-      </div>
+      </div> */}
     </div>
   );
 };

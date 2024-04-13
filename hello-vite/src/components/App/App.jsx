@@ -11,6 +11,7 @@ import Skills from "../Skills/Skills";
 import MyStory from "../MyStory/MyStory";
 import Projects from "../Projects/Projects";
 import ContactMe from "../ContactMe/ContactMe";
+import MyArt from "../MyArt/MyArt";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/my-story" element={<MyStory />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact-me" element={<ContactMe />} />
+          <Route path="/my-art" element={<MyArt />} />
         </Routes>
         <Header />
         <Footer />
