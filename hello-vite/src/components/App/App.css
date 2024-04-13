@@ -45,6 +45,7 @@
 
 .page {
   margin: 0 auto;
-  background-color: grey;
+  padding: 5px;
+  background-color: rgb(97, 115, 217);
   color: black;
 }
