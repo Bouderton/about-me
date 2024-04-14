@@ -48,4 +48,6 @@
   /* padding: 5px; */
   background-color: rgb(97, 115, 217);
   color: black;
+  display:flex;
+  flex-direction: column;
 }

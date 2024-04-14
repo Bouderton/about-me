@@ -1,12 +1,12 @@
 import "./Skills.css";
+import woowoo from "../../images/woowoo.mp4";
 
 const Skills = () => {
   return (
-    <div>
-      <div>
-        <p>Skills</p>
-      </div>
-    </div>
+    
+      <>
+        <video className="animation" src={woowoo} autoPlay loop muted />
+    </>
   );
 };
 

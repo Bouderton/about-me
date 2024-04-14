@@ -1,17 +1,16 @@
 import "./Main.css";
+import Header from "../Header/Header";
+// import woowoo from "../../images/woowoo";
 
 const Main = () => {
   return (
     <>
       <div className="main">
-        <div className="main__container">
-          <div className="main__text">
-            <h2></h2>
-          </div>
-        </div>
+        <Header/>
       </div>
     </>
   );
 };
 
 export default Main;
+``
