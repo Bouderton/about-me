@@ -6,6 +6,7 @@ function Header() {
   return (
     <>
       <header className="header">
+        <div className="header__overlay"></div>
         <video className="animation" src={looped_anim3} autoPlay loop muted />
         <div className="header__text">
           <h1 className="header__title">Ryan Khazal</h1>
