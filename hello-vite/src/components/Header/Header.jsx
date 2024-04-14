@@ -19,8 +19,8 @@ function Header() {
           </button>
         </div> */}
         {/* animated button thingy uhhhhhhh */}
+        <Nav />
       </header>
-      <Nav />
     </>
   );
 }
