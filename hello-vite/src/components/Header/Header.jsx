@@ -13,12 +13,6 @@ function Header() {
             Full-Stack Web Developer & 3D Artist
           </p>
         </div>
-        {/* <div className="button__container">
-          <button type="text" className="button">
-            Click Me
-          </button>
-        </div> */}
-        {/* animated button thingy uhhhhhhh */}
         <Nav />
       </header>
     </>
