@@ -4,3 +4,18 @@
   font-style: normal;
   src: url("./fonts/BlackOpsOne-Regular.ttf") format("woff");
 }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/Montserrat-Regular.ttf') format("woff");
+}
+
+
+@font-face {
+  font-family: "Montserrat-Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url('./fonts/Montserrat-Italic.ttf') format("woff");
+}

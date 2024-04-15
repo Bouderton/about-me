@@ -9,7 +9,7 @@
   }
   
   .main__content {
-    font-family: "BlackOpsOne-Regular";
+    font-family: "Montserrat-Regular";
     position: absolute;
     width: 100%;
     color: white;
@@ -19,22 +19,25 @@
   .main__title {
     margin: 0;
     font-size: 75px;
+    font-weight: 200;
   }
   
   .main__subtitle {
     margin: 0;
     font-size: 45px;
+    font-weight: 200;
   }
 
   .main__entry-button {
     margin-top: 75px;
-    width: 200px;
-    padding: 8px;
+    width: 250px;
+    padding: 10px;
     font-size: 30px;
+    font-weight: 100;
     background: transparent;
     border-radius: 15px;
     color: white;
-    border: solid white;
+    border: 1px solid white;
     cursor: pointer;
   }
   
