@@ -25,6 +25,7 @@
 .nav__list-item {
   text-decoration: none;
   list-style: none;
+  font-family: "Montserrat-Regular";
   font-size: 20px;
   cursor: pointer;
   text-decoration: none;
