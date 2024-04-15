@@ -6,7 +6,6 @@ const Skills = () => {
   return (
       <>
         <video className="animation" src={woowoo} autoPlay loop muted />
-        <Footer/>
     </>
   );
 };

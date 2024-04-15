@@ -15,8 +15,8 @@ import MyArt from "../MyArt/MyArt";
 
 function App() {
   return (
-    <>
-      <div className="page">
+  
+      <>
         <Nav/>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -26,8 +26,9 @@ function App() {
           <Route path="/contact-me" element={<ContactMe />} />
           <Route path="/my-art" element={<MyArt />} />
         </Routes>
-      </div>
-    </>
+        <Footer/>
+      </>
+    
   );
 }
 

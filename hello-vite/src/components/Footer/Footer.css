@@ -1,10 +1,13 @@
 .footer {
   font-size: 25px;
-  /* width: 100%; */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   background-color: #211e1e;
   color: white;
   text-align: center;
   padding: 12px;
+  /* margin-top: 100px; */
 }
 
 .footer__text {
