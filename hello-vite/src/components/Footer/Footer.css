@@ -1,8 +1,8 @@
 .footer {
   font-family: "Montserrat-Regular";
   font-size: 25px;
-  width: 100%;
-  position: absolute;
+  max-width: 100%;
+  position: relative;
   z-index: 1;
   background-color: #131414;
   color: white;
