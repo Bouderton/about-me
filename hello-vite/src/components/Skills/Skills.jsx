@@ -6,8 +6,10 @@ import woowoo from "../../images/woowoo.mp4";
 const Skills = () => {
   return (
       <>
-        <Nav/>
+      <Nav/>
+        <div className="background">
         <video className="animation" src={woowoo} autoPlay loop muted />
+        </div>
         <Footer/>
     </>
   );

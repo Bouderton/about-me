@@ -1,10 +1,16 @@
 import "./MyStory.css";
+import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer";
 
 const MyStory = () => {
   return (
-    <div>
+    <>
+      <Nav/>
+    <div className="mystory">
       <p>My Story</p>
     </div>
+      <Footer/>
+    </>
   );
 };
 

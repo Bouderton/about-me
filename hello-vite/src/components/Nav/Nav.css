@@ -1,7 +1,5 @@
 .nav__container {
-  position: fixed;
-  z-index: 2;
-  top: 0;
+  position: absolute;
   width: 100%;
   display: flex;
   flex-direction: row;
