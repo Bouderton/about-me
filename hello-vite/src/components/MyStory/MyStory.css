@@ -1,8 +1,9 @@
 .mystory {
     height: 500px;
     width: 100%;
-    background-color: grey;
+    background-color: #110c40;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }

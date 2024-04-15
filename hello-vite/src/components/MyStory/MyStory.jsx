@@ -7,7 +7,6 @@ const MyStory = () => {
     <>
       <Nav/>
     <div className="mystory">
-      <p>My Story</p>
     </div>
       <Footer/>
     </>
