@@ -1,14 +1,19 @@
 import "./Main.css";
-import Header from "../Header/Header";
-import Nav from "../Nav/Nav";
-import Footer from "../Footer/Footer";
+import Video from "../Video/Video";
+import looped_anim3 from "../../images/looped_anim3.mp4";
 
 
 const Main = () => {
   return (
-      <div className="main">
-        <Header/>
-      </div>
+      <main className="main">
+        <div className="main__text">
+          <h1 className="main__title">Ryan Khazal</h1>
+          <p className="main__subtitle">
+            Full-Stack Web Developer & 3D Artist
+          </p>
+        </div>
+        <Video vid={looped_anim3}/>
+      </main>
   );
 };
 
