@@ -1,8 +1,6 @@
 // import Nav from "../Nav/Nav";
 import "../Header/Header.css";
 import Video from "../Video/Video";
-import looped_anim3 from "../../images/looped_anim3.mp4";
-
 
 function Header() {
   return (

@@ -1,6 +1,6 @@
 import "./Main.css";
 import Video from "../Video/Video";
-import looped_anim3 from "../../images/looped_anim3.mp4";
+import looped_anim4 from "../../images/looped_anim4.mp4";
 
 
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
             Full-Stack Web Developer & 3D Artist
           </p>
         </div>
-        <Video vid={looped_anim3}/>
+        <Video vid={looped_anim4}/>
       </main>
   );
 };
