@@ -6,7 +6,8 @@ const MyStory = () => {
   return (
     <>
       <Nav/>
-    <div className="mystory">
+    <div className="my-story">
+      <h2 className="my-story__title">Who Am I?</h2>
     </div>
       <Footer/>
     </>
