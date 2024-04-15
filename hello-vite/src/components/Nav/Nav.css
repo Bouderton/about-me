@@ -1,5 +1,6 @@
 .nav__container {
   position: absolute;
+  z-index: 1;
   overflow: hidden;
   width: 100%;
   display: flex;
