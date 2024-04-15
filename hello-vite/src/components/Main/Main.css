@@ -8,7 +8,7 @@
     align-items: center;
   }
   
-  .main__text {
+  .main__content {
     font-family: "BlackOpsOne-Regular";
     position: absolute;
     width: 100%;
@@ -24,5 +24,17 @@
   .main__subtitle {
     margin: 0;
     font-size: 45px;
+  }
+
+  .main__entry-button {
+    margin-top: 75px;
+    width: 200px;
+    padding: 8px;
+    font-size: 30px;
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    border: solid white;
+    cursor: pointer;
   }
   
