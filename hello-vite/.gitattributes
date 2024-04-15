@@ -3,3 +3,4 @@ looped_anim2.mp4 filter=lfs diff=lfs merge=lfs -text
 looped-anim3 filter=lfs diff=lfs merge=lfs -text
 woowoo.mp4 filter=lfs diff=lfs merge=lfs -text
 looped_anim4.mp4 filter=lfs diff=lfs merge=lfs -text
+woowoo4k.mp4 filter=lfs diff=lfs merge=lfs -text
