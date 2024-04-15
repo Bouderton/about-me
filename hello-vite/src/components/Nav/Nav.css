@@ -1,5 +1,10 @@
 .nav__container {
+<<<<<<< HEAD
   position: relative;
+=======
+  position: absolute;
+  z-index: 1;
+>>>>>>> 83fb1a8b63812ced26ae82782f371c9a03fd30c9
   overflow: hidden;
  max-width: 100%;
   display: flex;
