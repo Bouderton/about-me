@@ -14,14 +14,6 @@ const Nav = () => {
             </Link>
           </li>
 
-          <li className="nav__list-item">
-            <Link
-              to="/skills"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              Skills
-            </Link>
-          </li>
 
           <li className="nav__list-item">
             <Link
@@ -29,6 +21,15 @@ const Nav = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               My Story
+            </Link>
+          </li>
+          
+          <li className="nav__list-item">
+            <Link
+              to="/skills"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Skills
             </Link>
           </li>
           <li className="nav__list-item">
