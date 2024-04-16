@@ -7,10 +7,20 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 .my-story__title {
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Montserrat-Regular";
     font-weight: 200;
+}
+
+.my-story__text-container {
+    margin: 30px auto;
+}
+
+.my-story__paragraph {
+    margin: 25px auto;
+    max-width: 250px;
 }
