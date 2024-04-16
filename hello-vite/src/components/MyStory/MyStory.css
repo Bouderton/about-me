@@ -1,6 +1,4 @@
 .my-story {
-    height: 100%;
-    width: 100%;
     background-color: #07051a;
     color: white;
     display: flex;
@@ -11,16 +9,27 @@
 }
 
 .my-story__title {
-    font-size: 50px;
-    font-family: "Montserrat-Regular";
+    font-size: 80px;
     font-weight: 200;
+    font-family: "Montserrat-Regular";
 }
 
 .my-story__text-container {
-    margin: 30px auto;
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    font-family: "Montserrat-Regular";
+    
 }
 
-.my-story__paragraph {
-    margin: 25px auto;
-    max-width: 250px;
+.paragraph1 {
+    justify-self: left;
+    margin: 50px 0 25px 25px;
+    max-width: 400px;
+}
+
+.paragraph2 {
+    justify-self: right;
+    margin: 0 25px 0;
+    max-width: 400px;
 }
