@@ -11,7 +11,7 @@ import Skills from "../Skills/Skills";
 import MyStory from "../MyStory/MyStory";
 import Projects from "../Projects/Projects";
 import ContactMe from "../ContactMe/ContactMe";
-import MyArt from "../MyArt/MyArt";
+import MyArt from "../Art/Art";
 
 function App() {
   return (

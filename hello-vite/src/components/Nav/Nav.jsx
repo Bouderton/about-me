@@ -44,7 +44,7 @@ const Nav = () => {
               to="/my-art"
               style={{ textDecoration: "none", color: "white" }}
             >
-              My Art
+              Art
             </Link>
           </li>
           <li className="nav__list-item">
