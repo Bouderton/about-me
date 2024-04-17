@@ -13,7 +13,7 @@ const Main = () => {
             Full-Stack Web Developer & 3D Artist
           </p>
           <Link to='/my-story' style={{textDecoration: "none", color: "white"}}>
-          <button type='text' className='main__entry-button'>Click Me</button>
+          <button type='text' className='main__entry-button'>About Me</button>
           </Link>
         </div>
         <Video vid={looped_anim4}/>
