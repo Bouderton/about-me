@@ -7,8 +7,12 @@ const Skills = () => {
   return (
     <>
       <Nav/>
-        <div className="background">
+        <div className="skills__background">
         <video className="animation" src={woowoo4k} autoPlay loop muted />
+        <div className='text__container'>
+        <h2 className='skills__title'>What I Do</h2>
+          <p className="text">Buncha Shit Lolasdfhasdfhasdfhasdfh</p>
+        </div>
         </div>
       <Footer/>
     </>

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <Nav/>
-      <p>Projects</p>
+      <h2>THIS IS WHERE PROJECTS GO. O_O</h2>
     </div>
   );
 };
