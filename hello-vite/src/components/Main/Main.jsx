@@ -13,7 +13,7 @@ const Main = () => {
       <Video src={woowoo4k}/>
     </div>
     <div className='main__test'>
-      <h1>TESTING</h1>
+      <h2>TESTING</h2>
     </div>
     <div className="box"><p>Test</p></div>
     <div className="box2"><p>Test</p></div>
