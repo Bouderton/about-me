@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     color: white;
     align-items: center;
     flex-direction: column;
@@ -16,7 +17,6 @@
 
 .text__container {
     position: absolute;
-
     text-align: center;
 }
 
