@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "../../../src/index.css";
 import Header from "../Header/Header";
+import LandingPage from "../LandingPage/LandingPage";
 import Main from "../Main/Main";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
@@ -17,7 +18,8 @@ function App() {
   return (
       <>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path='/main' element={<Main/>} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/my-story" element={<MyStory />} />
           <Route path="/projects" element={<Projects />} />
