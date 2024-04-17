@@ -1,8 +1,9 @@
 import "./Main.css";
 import Video from "../Video/Video";
 import woowoo4k from "../../images/woowoo4k.mp4";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Nav from "../Nav/Nav";
+import Header from "../Header/Header";
 
 
 const Main = () => {
@@ -13,24 +14,8 @@ const Main = () => {
       <Video src={woowoo4k}/>
     </div>
     <div className='main__test'>
-      <h2>TESTING</h2>
+      <Header text={"Who Am I?"}/>
     </div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
-    <div className="box"><p>Test</p></div>
-    <div className="box2"><p>Test</p></div>
  </>
   );
 };
