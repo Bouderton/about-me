@@ -10,6 +10,10 @@ const Skills = () => {
       <Nav/>
         <div className="skills">
           <h2 className='skills__title'>What I Do</h2>
+          <div className="skills__component">
+            <h3 className='skills__component-title'>JavaScript</h3>
+            <p className='skills__component-text'>Blhablhablhablhab</p>
+          </div>
           <Video vid={woowoo}/>
         </div>
       <Footer/>
