@@ -16,7 +16,7 @@ const LandingPage = () => {
           <button type='text' className='main__entry-button'>About Me</button>
           </Link>
         </div>
-        <Video vid={looped_anim4}/>
+        <Video src={looped_anim4}/>
       </main>
   );
 };
