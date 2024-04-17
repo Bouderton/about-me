@@ -14,11 +14,23 @@ const Main = () => {
     </div>
     <div className='main__test'>
       <h1>TESTING</h1>
-    <div className="box"></div>
-    <div className="box2"></div>
-    <div className="box"></div>
-    <div className="box"></div>
     </div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
+    <div className="box"><p>Test</p></div>
+    <div className="box2"><p>Test</p></div>
  </>
   );
 };
