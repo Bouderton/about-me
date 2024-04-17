@@ -1,6 +1,9 @@
-.skills__background {
+.skills {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -11,15 +14,19 @@
     height: 100%;
 }
 
+.text__container {
+    position: absolute;
+
+    text-align: center;
+}
 
 .skills__title {
+    font-size: 80px;
+    font-family: "Montserrat-Regular";
+    font-weight: 100;
 }
 
 .text {
     z-index: 2;
     position: relative;
-}
-
-.text__container {
-    position: absolute;
 }
