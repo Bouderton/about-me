@@ -3,6 +3,7 @@ import Video from "../Video/Video";
 import woowoo4k from "../../images/woowoo4k.mp4";
 // import { Link } from "react-router-dom";
 import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 
@@ -13,9 +14,13 @@ const Main = () => {
     <div>
       <Video src={woowoo4k}/>
     </div>
-    <div className='main__test'>
+    <main className='main'>
       <Header text={"Who Am I?"}/>
-    </div>
+      <div className='box'>
+        <h2>TESTING</h2>
+      </div>
+    </main>
+    <Footer />
  </>
   );
 };

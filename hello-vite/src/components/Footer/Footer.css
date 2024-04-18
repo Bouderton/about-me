@@ -1,20 +1,26 @@
 .footer {
   font-family: "Montserrat-Regular";
   font-size: 25px;
-  max-width: 100%;
   position: relative;
   z-index: 1;
   background-color: #131414;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 15px;
   overflow: hidden;
 }
 
 .footer__github {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background: transparent;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer__text {

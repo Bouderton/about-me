@@ -13,8 +13,6 @@ const Nav = () => {
               Home
             </Link>
           </li>
-
-
           <li className="nav__list-item">
             <Link
               to="/my-story"
