@@ -5,6 +5,7 @@ import woowoo4k from "../../images/woowoo4k.mp4";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import Skills from "../Skills/Skills";
 
 
 const Main = () => {
@@ -19,6 +20,7 @@ const Main = () => {
       <div className='box'>
         <h2>TESTING</h2>
       </div>
+      <Skills />
     </main>
     <Footer />
  </>
