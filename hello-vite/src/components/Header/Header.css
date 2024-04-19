@@ -53,6 +53,7 @@
 }
 
 .header__title {
+  margin: 20px;
   font-size: 100px;
   font-weight: 200;
   font-family: "Montserrat-Regular";
