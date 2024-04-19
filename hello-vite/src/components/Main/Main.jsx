@@ -12,9 +12,9 @@ const Main = () => {
   return (
  <>
  <Nav/>
-    <div>
+    {/* <div>
       <Video src={woowoo4k}/>
-    </div>
+    </div> */}
     <main className='main'>
       <Header text={"Who Am I?"}/>
       <div className='box'>

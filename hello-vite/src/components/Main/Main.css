@@ -1,13 +1,14 @@
 .main {
-    margin: 100px auto;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: #0b0924;
 }
 
 .box {
-    background: white;
-    height: 500px;
+    background: grey;
+    height: 250px;
     margin-top: 100px;
     padding: 20px 20px;
 }
