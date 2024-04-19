@@ -1,14 +1,16 @@
 import "./Skills.css";
-import Nav from "../Nav/Nav";
+import Header from "../Header/Header";
 
 const Skills = () => {
   return (
     <>
-    <Nav />
         <div className="skills">
+            <Header text={"What I Do"} />
           <div className="box">
+            <h2>TESTING</h2>
           <div className="skills__component">
-            <h3 className='skills__component-title'>Nothing Here Goofy</h3>
+            <h3 className='skills__component-title'>JavaScript</h3>
+            <p className='skills__component-text'>Blhablhablhablhab</p>
           </div>
           </div>
         </div>
