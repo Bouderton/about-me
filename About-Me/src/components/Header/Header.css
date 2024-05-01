@@ -4,6 +4,7 @@
 
 .header {
   display: flex;
+  height: 100vh;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -11,6 +12,19 @@
 }
 
 .header__logo {
-  width: 240px;
-  height: 240px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.header__title {
+  font-size: 200px;
+  margin: 0 0 10px;
+}
+
+.header__subtitle {
+  font-size: 55px;
+  margin: 0 0 10px;
 }
