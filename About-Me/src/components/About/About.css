@@ -2,9 +2,15 @@
   color: white;
   background: black;
   margin-top: 3px;
-  padding: 50px;
+  padding: 75px;
 }
 
 .about__title {
+  margin: 0 0 5px;
+  font-size: 25px;
+}
+
+.about__text {
+  font-size: 40px;
   margin: 0;
 }
