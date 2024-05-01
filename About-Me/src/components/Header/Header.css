@@ -1,0 +1,16 @@
+.header__container {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 240px;
+  height: 240px;
+}
