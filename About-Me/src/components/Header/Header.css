@@ -19,12 +19,20 @@
   height: 45px;
 }
 
+.header__linkedin {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
 .header__title {
-  font-size: 200px;
+  font-size: 175px;
   margin: 0 0 10px;
 }
 
 .header__subtitle {
-  font-size: 55px;
-  margin: 0 0 10px;
+  font-size: 45px;
+  margin: 0 0 5px;
 }
