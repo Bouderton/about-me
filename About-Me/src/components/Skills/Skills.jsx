@@ -3,7 +3,9 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="skills">
-      <h2 className="skills__title">What I Do</h2>
+      <div className="skills__title-container">
+        <h2 className="skills__title">What I Do</h2>
+      </div>
       <div className="skills__front">
         <h3 className="skills__front-header">Front End</h3>
         <ul className="skills__front-list">
