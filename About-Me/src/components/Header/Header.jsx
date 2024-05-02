@@ -1,6 +1,7 @@
 import "./Header.css";
 import logo from "../../images/Logo.svg";
 import linkedin from "../../images/linkedin.svg";
+import github from "../../images/GitHub.svg";
 
 const Header = () => {
   return (
@@ -10,8 +11,9 @@ const Header = () => {
         <h2 className="header__subtitle">Full-Stack Web Developer</h2>
         <h2 className="header__subtitle">3D Artist</h2>
         <img src={logo} alt="logo" className="header__logo" />
-        {/* find a way to optimize the logo placement */}
         <img src={linkedin} alt="linkedin" className="header__linkedin" />
+        <img src={github} alt="github" className="header__github" />
+        {/* FIX BLURRY LOGOS */}
       </header>
     </div>
   );

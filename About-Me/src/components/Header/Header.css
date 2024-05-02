@@ -27,6 +27,14 @@
   left: 15px;
 }
 
+.header__github {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 50px;
+  left: 15px;
+}
+
 .header__title {
   font-size: 175px;
   margin: 0 0 10px;
