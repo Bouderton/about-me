@@ -1,3 +1,16 @@
-.projects__container {
-  width: 100%;
+.projects {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 150px;
+}
+
+.projects__title-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projects__title {
+  font-size: 25px;
+  margin: 0 0 50px;
 }

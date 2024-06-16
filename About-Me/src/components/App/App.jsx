@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }
