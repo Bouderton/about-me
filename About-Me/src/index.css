@@ -72,3 +72,5 @@ button:focus-visible {
 @import url("./components/About/About.css");
 
 @import url("./components/Skills/Skills.css");
+
+@import url("./components/Projects/Projects.css");
