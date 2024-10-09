@@ -1,13 +1,6 @@
 .projects {
-  background: black;
-  display: flex;
-  flex-direction: column;
-  padding: 100px 150px;
-}
-
-.projects__title-container {
-  display: flex;
-  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 100px 100px;
 }
 
 .projects__title {
