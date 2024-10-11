@@ -12,6 +12,8 @@ body {
   background: #010714;
   color: white;
   max-width: 1440px;
+  display: flex;
+  justify-content: center;
 }
 
 /* .page {
