@@ -1,7 +1,6 @@
 import "./Header.css";
 import rklogo from "../../images/rklogo.svg";
-import linkedin from "../../images/linkedin.svg";
-import github from "../../images/GitHub.svg";
+import github from "../../images/github.svg";
 import Break from "../Break/Break";
 
 const Header = () => {
@@ -12,7 +11,13 @@ const Header = () => {
           <h2 className="header__title">Ryan Khazal</h2>
           <p className="header__subtitle">Full-Stack Web Developer</p>
           <img src={rklogo} alt="logo" className="header__logo" />
-          <img src={github} alt="github" className="header__github" />
+          <a
+            href="https://github.com/Bouderton"
+            rel="noopener noreferer"
+            target="_blank"
+          >
+            <img src={github} alt="github" className="header__github" />
+          </a>
           {/* FIX BLURRY LOGOS */}
           {/* I think they're fixed lol */}
         </header>

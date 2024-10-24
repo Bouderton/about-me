@@ -15,7 +15,13 @@
 }
 
 .contact__title {
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.contact__icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .contact__icon {
