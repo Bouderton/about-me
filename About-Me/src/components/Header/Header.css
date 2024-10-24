@@ -19,20 +19,11 @@
   height: 45px;
 }
 
-.header__linkedin {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  bottom: 15px;
-  left: 15px;
-  cursor: pointer;
-}
-
 .header__github {
   width: 30px;
   height: 30px;
   position: fixed;
-  bottom: 50px;
+  bottom: 15px;
   left: 15px;
   cursor: pointer;
 }

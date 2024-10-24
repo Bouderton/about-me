@@ -1,0 +1,24 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 25px;
+}
+
+.contact__icon {
+  width: 96px;
+  height: 96px;
+}
