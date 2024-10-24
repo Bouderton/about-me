@@ -8,8 +8,6 @@ import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <div className="page">
       <Header />
