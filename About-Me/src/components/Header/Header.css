@@ -4,7 +4,7 @@
 
 .header {
   display: flex;
-  height: 100vh;
+  height: 1000px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -28,10 +28,43 @@
 
 .header__title {
   font-size: 175px;
-  margin: 0 0 10px;
+  margin: 0 10px 10px;
+  text-align: center;
 }
 
 .header__subtitle {
   font-size: 45px;
-  margin: 0 0 5px;
+  margin: 0 5px 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    height: 800px;
+  }
+
+  .header__logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    height: 600px;
+  }
+
+  .header__title {
+    font-size: 75px;
+  }
+
+  .header__subtitle {
+    font-size: 25px;
+  }
 }

@@ -1,5 +1,5 @@
 const Break = () => {
-  return <hr style={{ width: "100vw", margin: 0 }}></hr>;
+  return <hr style={{ minWidth: "320px", width: "100vw", margin: 0 }}></hr>;
 };
 
 export default Break;
