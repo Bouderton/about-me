@@ -6,10 +6,6 @@
   padding: 75px;
 }
 
-.about__container:nth-last-child(-n + 2) {
-  margin-top: 10px;
-}
-
 .about__title {
   margin: 0;
   font-size: 25px;
