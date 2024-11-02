@@ -12,13 +12,15 @@ const About = () => {
           Camps in the U.S, with internship experience and over 1,200
           contributions on GitHub in the last year. I specialize in creating
           responsive and intuitive web applications fit for all devices using
-          React, JavaScript, HTML/CSS, Express, Node and MongoDB. As a former
-          Student Athlete with a Regional and State Championship at the highest
-          level - Resilience, Teamwork and Communication are customary in my
-          love for innovative technology. I am confident that my background in
-          athletics, paired with my passion for health and fitness, will allow
-          me to thrive in a working environment that shares my drive to change
-          the world through health and technology.
+          React, JavaScript, HTML/CSS, Express, Node and MongoDB.
+        </p>
+        <p className="about__text">
+          As a former Student Athlete with a Regional and State Championship at
+          the highest level - Resilience, Teamwork and Communication are
+          customary in my love for innovative technology. I am confident that my
+          background in athletics, paired with my passion for health and
+          fitness, will allow me to thrive in a working environment that shares
+          my drive to change the world through health and technology.
         </p>
       </div>
       <Break />

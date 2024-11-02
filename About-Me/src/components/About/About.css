@@ -1,14 +1,32 @@
 .about__container {
   color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
   padding: 75px;
 }
 
+.about__container:nth-last-child(-n + 2) {
+  margin-top: 10px;
+}
+
 .about__title {
-  margin: 0 0 15px;
+  margin: 0;
   font-size: 25px;
 }
 
 .about__text {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
+  text-indent: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .about__title {
+    font-size: 20px;
+  }
+
+  .about__text {
+    font-size: 18px;
+  }
 }

@@ -58,3 +58,13 @@
 .skills__back-list-item {
   margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .skills__front-list {
+    font-size: 75px;
+  }
+
+  .skills__back-list {
+    font-size: 75px;
+  }
+}
