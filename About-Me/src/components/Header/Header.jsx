@@ -18,8 +18,6 @@ const Header = () => {
           >
             <img src={github} alt="github" className="header__github" />
           </a>
-          {/* FIX BLURRY LOGOS */}
-          {/* I think they're fixed lol */}
         </header>
         <Break />
       </div>
