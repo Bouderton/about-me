@@ -42,11 +42,7 @@
   .header {
     height: 600px;
   }
-  /* 
-  .header__logo {
-    width: 60px;
-    height: 60px;
-  } */
+
   .header__title {
     font-size: 100px;
   }
@@ -56,12 +52,9 @@
   }
 }
 
-/* @media screen and (max-width: 600px) {
-} */
-
 @media screen and (max-width: 550px) {
   .header {
-    height: 600px;
+    height: 400px;
   }
 
   .header__title {
@@ -70,5 +63,18 @@
 
   .header__subtitle {
     font-size: 25px;
+  }
+
+  .header__logo {
+    top: 6px;
+    left: 6px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__github {
+    left: 3px;
+    width: 30px;
+    height: 30px;
   }
 }
