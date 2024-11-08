@@ -16,6 +16,7 @@
 
 .project__img {
   width: 100%;
+  object-fit: cover;
   border-radius: 50px;
 }
 
@@ -23,4 +24,29 @@
   text-align: center;
   font-size: 50px;
   margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .project {
+    padding: 10px;
+    margin: 0 0 25px;
+    border-radius: 30px;
+  }
+
+  .project__img {
+    border-radius: 30px;
+  }
+  .project__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .project__img {
+    border-radius: 20px;
+  }
+
+  .project {
+    border-radius: 20px;
+  }
 }

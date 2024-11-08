@@ -11,7 +11,7 @@ const Projects = () => {
     <>
       <div className="projects">
         <div className="project__title-container">
-          <h2 className="projects__title">My Work</h2>
+          <h2 className="projects__title">What I've Done</h2>
         </div>
         <Project
           link="https://newsexplorer.utdnews.com/"
