@@ -23,7 +23,6 @@ const Contact = () => {
           >
             <img src={linkedin} className="contact__icon" alt="LinkedIn Icon" />
           </a>
-          {/* <img src={gmail} className="contact__icon" alt="G-mail Icon" /> */}
         </div>
       </div>
     </section>

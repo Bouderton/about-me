@@ -16,6 +16,7 @@
 
 .contact__title {
   font-size: 30px;
+  margin: 0;
 }
 
 .contact__icons-container {
@@ -27,4 +28,19 @@
 .contact__icon {
   width: 96px;
   height: 96px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact__title {
+    font-size: 20px;
+  }
+
+  .contact__icons-container {
+    gap: 15px;
+  }
+
+  .contact__icon {
+    width: 48px;
+    height: 48px;
+  }
 }
