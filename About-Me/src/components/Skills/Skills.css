@@ -118,7 +118,7 @@
 
   .skills {
     gap: 50px;
-    padding: 25px;
+    padding: 20px;
   }
 
   .skills__front-list-item {
@@ -129,6 +129,3 @@
     text-align: center;
   }
 }
-
-/* @media screen and (max-width: 400px) {
-} */
