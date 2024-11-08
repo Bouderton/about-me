@@ -1,28 +1,24 @@
-.header__container {
-  width: 100%;
-}
-
 .header {
   display: flex;
-  height: 1000px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding: 150px 0;
 }
 
 .header__logo {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
   width: 45px;
   height: 45px;
 }
 
 .header__github {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: 5px;
   cursor: pointer;
 }
 
@@ -39,10 +35,6 @@
 }
 
 @media screen and (max-width: 900px) {
-  .header {
-    height: 600px;
-  }
-
   .header__title {
     font-size: 100px;
   }
@@ -53,10 +45,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header {
-    height: 400px;
-  }
-
   .header__title {
     font-size: 75px;
   }
