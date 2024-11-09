@@ -1,6 +1,6 @@
 import "./Projects.css";
 import "../Project/Project";
-import Break from "../Break/Break";
+// import Break from "../Break/Break";
 import Project from "../Project/Project";
 import NewsExplorerLive from "../../images/NewsExplorerLive.png";
 import wtwr from "../../images/wtwr.png";
@@ -29,7 +29,6 @@ const Projects = () => {
           link="https://bouderton.github.io/se_project_aroundtheus/"
         />
       </div>
-      <Break />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import "./About.css";
-import Break from "../Break/Break";
+// import Break from "../Break/Break";
 
 const About = () => {
   return (
@@ -23,7 +23,6 @@ const About = () => {
           through health and technology.
         </p>
       </div>
-      <Break />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import "./Skills.css";
-import Break from "../Break/Break";
+// import Break from "../Break/Break";
 
 const Skills = () => {
   return (
@@ -27,7 +27,6 @@ const Skills = () => {
           </ul>
         </div>
       </div>
-      <Break />
     </>
   );
 };

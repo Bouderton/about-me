@@ -6,7 +6,9 @@
 
 body {
   margin: 0 auto;
-  background: #010714;
-  color: white;
+  background: #272829;
+  color: #fff6e0;
   min-width: 320px;
+  /* Placeholder font  */
+  font-family: Arial;
 }
