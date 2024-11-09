@@ -19,15 +19,13 @@ const Navigation = () => {
           </button>
         </div>
         <div className="nav__icons-container">
-          {/* Linkedin */}
           <button className="nav__icon" type="button">
             <img src={linkedin} alt="LinkedIn Icon" />
           </button>
-          {/* Github */}
           <button className="nav__icon" type="button">
             <img src={github} alt="Github Icon" />
           </button>
-          {/* Contact email */}
+          {/* Email Icon Coming Soon*/}
         </div>
       </div>
     </section>

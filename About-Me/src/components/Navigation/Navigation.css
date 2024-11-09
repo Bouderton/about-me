@@ -7,8 +7,10 @@
 
 .nav__content {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 
 .nav__content-title {
@@ -32,6 +34,11 @@
   padding: 0;
 }
 
+.nav__button:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
 .nav__icons-container {
   height: 24px;
   display: flex;
@@ -48,4 +55,9 @@
   margin: 0;
   height: 24px;
   width: 24px;
+}
+
+.nav__icon:hover {
+  cursor: pointer;
+  opacity: 75%;
 }
