@@ -17,8 +17,8 @@
 
 .header__logo {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
   width: 45px;
   height: 45px;
 }
@@ -34,6 +34,14 @@
   font-size: 60px;
   margin: 0 0 10px 0;
   /* text-align: center; */
+}
+
+.header__title::before {
+  content: "< ";
+}
+
+.header__title::after {
+  content: " />";
 }
 
 .header__subtitle {
