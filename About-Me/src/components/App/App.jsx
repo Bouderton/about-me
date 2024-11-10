@@ -11,6 +11,7 @@ import Contact from "../Contact/Contact";
 function App() {
   return (
     <div className="page">
+      {/* DONT FORGET TO BOLD IMPORTANT TEXT */}
       <Header />
       <About />
       <Skills />

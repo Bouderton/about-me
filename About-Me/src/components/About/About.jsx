@@ -9,13 +9,13 @@ const About = () => {
         <h2 className="about__title">About Me</h2>
         <div className="about__content">
           <div className="about__text-container">
-            <p className="about__text" style={{ textAlign: "left" }}>
+            <p className="about__text">
               // I graduated from one of the top Software Engineering Boot Camps
               in the U.S, with over 1,200 contributions on GitHub in the last
               year.
             </p>
             <p className="about__text">
-              As a former Student Athlete with a Regional and State
+              // As a former Student Athlete with a Regional and State
               Championship; Resilience, Teamwork and Communication are customary
               in my love for innovative technology. I am confident that my
               background in athletics, paired with my passion for health and

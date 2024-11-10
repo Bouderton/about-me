@@ -13,7 +13,7 @@ const Header = () => {
           <img src={rklogo} alt="logo" className="header__logo" />
           <p className="header__text">
             // I am a Full-Stack Web Developer from Las Vegas, Nevada looking
-            for new opportunities in the tech world. I specialize in creating
+            for opportunities in the tech world. I specialize in creating
             responsive and intuitive web applications fit for all devices.
           </p>
         </div>
