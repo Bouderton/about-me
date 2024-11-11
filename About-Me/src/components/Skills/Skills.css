@@ -1,6 +1,6 @@
 .skills {
   padding: 100px 100px;
-  color: white;
+  color: #fff6e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,8 +13,16 @@
 }
 
 .skills__title {
-  font-size: 25px;
+  font-size: 35px;
   margin: 0;
+}
+
+.skills__title::before {
+  content: "< ";
+}
+
+.skills__title::after {
+  content: " />";
 }
 
 .skills__front-header {
