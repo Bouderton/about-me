@@ -20,6 +20,7 @@ const Navigation = () => {
         </div>
         <div className="nav__icons-container">
           <a
+            style={{ height: "24px" }}
             href="https://www.linkedin.com/in/ryankhazal/"
             rel="noopener noreferer"
             target="_blank"
@@ -29,6 +30,7 @@ const Navigation = () => {
             </button>
           </a>
           <a
+            style={{ height: "24px" }}
             href="https://github.com/Bouderton"
             rel="noopener noreferer"
             target="_blank"
