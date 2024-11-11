@@ -19,12 +19,24 @@ const Navigation = () => {
           </button>
         </div>
         <div className="nav__icons-container">
-          <button className="nav__icon" type="button">
-            <img src={linkedin} alt="LinkedIn Icon" />
-          </button>
-          <button className="nav__icon" type="button">
-            <img src={github} alt="Github Icon" />
-          </button>
+          <a
+            href="https://www.linkedin.com/in/ryankhazal/"
+            rel="noopener noreferer"
+            target="_blank"
+          >
+            <button className="nav__icon" type="button">
+              <img src={linkedin} alt="LinkedIn Icon" />
+            </button>
+          </a>
+          <a
+            href="https://github.com/Bouderton"
+            rel="noopener noreferer"
+            target="_blank"
+          >
+            <button className="nav__icon" type="button">
+              <img src={github} alt="Github Icon" />
+            </button>
+          </a>
           {/* Email Icon Coming Soon*/}
         </div>
       </div>

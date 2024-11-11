@@ -17,8 +17,8 @@
 
 .header__logo {
   position: fixed;
-  top: 5px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
   width: 45px;
   height: 45px;
 }
