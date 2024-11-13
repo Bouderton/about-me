@@ -20,7 +20,7 @@ const Header = () => {
         </div>
         <div className="header__anim">
           <h1 style={{ width: "200px", margin: "0" }}>
-            ANIMATION GOES HERE WOOO WOOO
+            COOL ANIMATION COMING SOON
           </h1>
         </div>
       </header>
