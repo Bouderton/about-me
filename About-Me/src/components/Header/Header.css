@@ -35,13 +35,13 @@
   margin: 0 0 5px 0;
 }
 
-.header__title::before {
+/* .header__title::before {
   content: "< ";
 }
 
 .header__title::after {
   content: " />";
-}
+} */
 
 .header__subtitle {
   font-size: 20px;

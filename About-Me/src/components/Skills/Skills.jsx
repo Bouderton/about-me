@@ -9,7 +9,6 @@ const Skills = () => {
           <h2 className="skills__title">What I Do</h2>
         </div>
         <div className="skills__list-container">
-          {/* <h3 className="skills__front-header">Front End</h3> */}
           <ul className="skills__list">
             <li>
               <div className="skills__item">React</div>
@@ -25,6 +24,9 @@ const Skills = () => {
             </li>
             <li>
               <div className="skills__item">Express</div>
+            </li>
+            <li>
+              <div className="skills__item">Git</div>
             </li>
             <li>
               <div className="skills__item">Node</div>
