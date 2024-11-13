@@ -7,25 +7,23 @@ const MotionView = () => {
 
   return (
     <>
-      <div style={{ height: "800px" }}>
-        <motion.div
+      {/* <motion.div
           style={{ height: "200px", background: "black" }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.75 }}
-        />
-        <motion.div
-          style={{
-            scaleX: scrollYProgress,
-            background: "blue",
-            transformOrigin: "left",
-            position: "fixed",
-            top: 0,
-            width: "100%",
-            height: "15px",
-          }}
-        />
-      </div>
+        /> */}
+      <motion.div
+        style={{
+          scaleX: scrollYProgress,
+          background: "#1980e5",
+          transformOrigin: "left",
+          position: "fixed",
+          bottom: 0,
+          width: "100%",
+          height: "10px",
+        }}
+      />
     </>
   );
 };

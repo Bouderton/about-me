@@ -1,6 +1,6 @@
 .skills {
   padding: 100px 100px;
-  color: #fff6e0;
+  color: #fafbfd;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,15 +30,20 @@
   margin: 0 0 30px;
 }
 
-.skills__front-list {
+.skills__list {
   list-style-type: none;
-  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
+  gap: 10px;
   padding: 0;
 }
 
-.skills__front-list-item {
-  margin: 0;
+.skills__item {
+  font-size: 16px;
+  background: #294056;
+  border-radius: 12px;
+  padding: 10px;
 }
 
 .skills__back {
@@ -60,7 +65,7 @@
 
 .skills__back-list {
   list-style-type: none;
-  font-size: 100px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }

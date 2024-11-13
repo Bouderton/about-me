@@ -1,5 +1,6 @@
 import "./About.css";
 import me from "../../images/me.jpeg";
+import { motion } from "motion/react";
 
 const About = () => {
   return (
@@ -24,7 +25,14 @@ const About = () => {
               explore the unknowns of the expanding universe.
             </p>
           </div>
-          <img className="about__img" src={me} alt="Ryan Khazal Photo" />
+          <motion.img
+            className="about__img"
+            src={me}
+            alt="Ryan Khazal Photo"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          />
         </div>
       </section>
     </>
