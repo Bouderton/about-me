@@ -22,16 +22,28 @@ const Header = () => {
           </p>
         </div>
         <div className="header__anim">
-          <button type="text" onClick={() => setIsVisible(!isVisible)}>
+          <motion.button
+            layout
+            type="text"
+            onClick={() => setIsVisible(!isVisible)}
+          >
             Show/Hide
-          </button>
-          <AnimatePresence>
+          </motion.button>
+          <AnimatePresence mode="popLayout">
             {isVisible && (
               <motion.h1
-                initial={{ rotate: "0deg", scale: 0 }}
-                animate={{ rotate: "180deg", scale: 1 }}
-                exit={{ rotate: "0deg", scale: 0 }}
-                transition={{ duration: 1, ease: "backInOut" }}
+                initial={{ rotate: "0deg", scale: 0, y: 0 }}
+                animate={{
+                  rotate: "180deg",
+                  scale: 1,
+                  y: [0, 150, -150, -150, 0],
+                }}
+                exit={{ rotate: "0deg", scale: 0, y: 0 }}
+                transition={{
+                  duration: 1,
+                  ease: "backInOut",
+                  times: [0, 0.25, 0.5, 0.85, 1],
+                }}
                 style={{ width: "200px", margin: "0" }}
               >
                 COOL ANIMATION COMING SOON
