@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: 0 auto;
   letter-spacing: 2px;
@@ -35,26 +35,10 @@
   margin: 0 0 5px 0;
 }
 
-/* .header__title::before {
-  content: "< ";
-}
-
-.header__title::after {
-  content: " />";
-} */
-
 .header__subtitle {
   font-size: 20px;
   margin: 0 0 25px 0;
   text-align: center;
-}
-
-.header__subtitle::before {
-  content: "< ";
-}
-
-.header__subtitle::after {
-  content: " />";
 }
 
 .header__text {
@@ -64,37 +48,3 @@
   text-align: center;
   margin: 0 auto;
 }
-
-/* FOR LATER */
-/* @media screen and (max-width: 900px) {
-  .header__title {
-    font-size: 100px;
-  }
-
-  .header__subtitle {
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .header__title {
-    font-size: 75px;
-  }
-
-  .header__subtitle {
-    font-size: 25px;
-  }
-
-  .header__logo {
-    top: 6px;
-    left: 6px;
-    width: 30px;
-    height: 30px;
-  }
-
-  .header__github {
-    left: 3px;
-    width: 30px;
-    height: 30px;
-  }
-} */

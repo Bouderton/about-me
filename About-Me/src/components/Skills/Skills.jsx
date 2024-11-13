@@ -46,7 +46,10 @@ const Skills = () => {
                 <div className="skills__item">Python</div>
               </li>
             </ul>
-            <div className="skills__list-container">
+            <div
+              className="skills__list-container"
+              style={{ marginTop: "35px" }}
+            >
               <h3 className="skills__tech-title">Other Stuff I Do</h3>
               <ul className="skills__list">
                 <li>
