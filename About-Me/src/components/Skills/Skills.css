@@ -9,11 +9,11 @@
 
 .skills__title-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .skills__title {
-  font-size: 35px;
+  font-size: 40px;
   margin: 0;
 }
 
