@@ -46,7 +46,34 @@ const Skills = () => {
                 <div className="skills__item">Python</div>
               </li>
             </ul>
+            <div className="skills__list-container">
+              <h3 className="skills__tech-title">Other Stuff I Do</h3>
+              <ul className="skills__list">
+                <li>
+                  <div className="skills__item">Basketball</div>
+                </li>
+                <li>
+                  <div className="skills__item">Blender</div>
+                </li>
+                <li>
+                  <div className="skills__item">Maya</div>
+                </li>
+                <li>
+                  <div className="skills__item">Photoshop</div>
+                </li>
+                <li>
+                  <div className="skills__item">Music</div>
+                </li>
+                <li>
+                  <div className="skills__item">Cinema</div>
+                </li>
+                <li>
+                  <div className="skills__item">Learn</div>
+                </li>
+              </ul>
+            </div>
           </div>
+
           <div className="skills__text-container">
             <p className="skills__text">
               I specialize in creating responsive and intuitive web applications
