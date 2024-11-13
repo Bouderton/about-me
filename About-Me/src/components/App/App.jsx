@@ -7,11 +7,13 @@ import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
+import Motion from "../Motion/Motion";
 
 function App() {
   return (
     <div className="page">
       {/* DONT FORGET TO BOLD IMPORTANT TEXT */}
+      <Motion />
       <Header />
       <About />
       <Skills />
