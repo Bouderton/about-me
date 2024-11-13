@@ -8,7 +8,7 @@ import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import Motion from "../Motion/Motion";
-
+import MotionView from "../Motion/MotionView";
 function App() {
   return (
     <div className="page">
@@ -19,6 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <MotionView />
     </div>
   );
 }
