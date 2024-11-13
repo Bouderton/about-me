@@ -16,9 +16,7 @@ const Header = () => {
           <img src={rklogo} alt="logo" className="header__logo" />
           <p className="header__text">
             // I am a Full-Stack Software Engineer from Las Vegas, Nevada
-            looking for opportunities in the tech world. I specialize in
-            creating responsive and intuitive web applications fit for all
-            devices.
+            looking for opportunities in the tech world.
           </p>
         </div>
         <div className="header__anim">
