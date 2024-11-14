@@ -7,7 +7,7 @@ import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
-import MotionView from "../Motion/MotionView";
+import MotionView from "../Motion/ProgressBar";
 function App() {
   return (
     <div className="page">
