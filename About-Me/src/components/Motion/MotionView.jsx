@@ -17,6 +17,7 @@ const MotionView = () => {
         style={{
           scaleX: scrollYProgress,
           background: "#3a85ff",
+          borderRadius: "0 50px 50px 0",
           transformOrigin: "left",
           position: "fixed",
           bottom: 0,
