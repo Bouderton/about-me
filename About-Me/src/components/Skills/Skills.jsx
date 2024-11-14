@@ -1,5 +1,5 @@
 import "./Skills.css";
-// import Break from "../Break/Break";
+import Skill from "../Skill/Skill";
 
 const Skills = () => {
   return (
@@ -12,67 +12,31 @@ const Skills = () => {
           <div className="skills__list-container">
             <h3 className="skills__tech-title">Tech I Use</h3>
             <ul className="skills__list">
-              <li>
-                <div className="skills__item">React</div>
-              </li>
-              <li>
-                <div className="skills__item">JavaScript</div>
-              </li>
-              <li>
-                <div className="skills__item">HTML</div>
-              </li>
-              <li>
-                <div className="skills__item">CSS</div>
-              </li>
-              <li>
-                <div className="skills__item">Express</div>
-              </li>
-              <li>
-                <div className="skills__item">Git</div>
-              </li>
-              <li>
-                <div className="skills__item">Node</div>
-              </li>
-              <li>
-                <div className="skills__item">MongoDB</div>
-              </li>
-              <li>
-                <div className="skills__item">JSON</div>
-              </li>
-              <li>
-                <div className="skills__item">GCP</div>
-              </li>
-              <li>
-                <div className="skills__item">Python</div>
-              </li>
+              <Skill name={"React"} />
+              <Skill name={"JavaScript"} />
+              <Skill name={"HTML"} />
+              <Skill name={"CSS"} />
+              <Skill name={"Express"} />
+              <Skill name={"Git"} />
+              <Skill name={"Node"} />
+              <Skill name={"MongoDB"} />
+              <Skill name={"JSON"} />
+              <Skill name={"GCP"} />
+              <Skill name={"Python"} />
             </ul>
             <div
               className="skills__list-container"
               style={{ marginTop: "35px" }}
             >
-              <h3 className="skills__tech-title">Other Stuff I Do</h3>
+              <h3 className="skills__tech-title">Other Stuff I Enjoy</h3>
               <ul className="skills__list">
-                <li>
-                  <div className="skills__item">Basketball</div>
-                </li>
-                <li>
-                  <div className="skills__item">Blender</div>
-                </li>
-                <li>
-                  <div className="skills__item">Maya</div>
-                </li>
-                <li>
-                  <div className="skills__item">Photoshop</div>
-                </li>
-                <li>
-                  <div className="skills__item">Music</div>
-                </li>
-                <li>
-                  <div className="skills__item">Cinema</div>
-                </li>
-                <li>
-                  <div className="skills__item">Learn</div>
-                </li>
+                <Skill name={"Basketball"} />
+                <Skill name={"Blender"} />
+                <Skill name={"Maya"} />
+                <Skill name={"Photoshop"} />
+                <Skill name={"Music"} />
+                <Skill name={"Cinema"} />
+                <Skill name={"Learning"} />
               </ul>
             </div>
           </div>
