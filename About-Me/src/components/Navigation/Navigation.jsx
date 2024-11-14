@@ -17,6 +17,9 @@ const Navigation = () => {
           <button type="text" className="nav__button">
             Projects
           </button>
+          <button type="text" className="nav__button">
+            Resume
+          </button>
         </div>
         <div className="nav__icons-container">
           <a

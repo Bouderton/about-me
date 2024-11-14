@@ -4,6 +4,7 @@ import Project from "../Project/Project";
 import NewsExplorerLive from "../../images/NewsExplorerLive.png";
 import wtwr from "../../images/wtwr.png";
 import aroundtheus from "../../images/aroundtheus.png";
+import triplepeaks from "../../images/triplepeaks.png";
 
 const Projects = () => {
   return (
@@ -29,7 +30,7 @@ const Projects = () => {
             repo="https://github.com/Bouderton/se_project_react"
             text="What To Wear is a responsive Full Stack Web Application
             that fetches realtime location and weather data to suggest the user
-            clothing items fit for the weather outside."
+            clothing items to wear."
           />
           <Project
             repo="https://github.com/Bouderton/se_project_aroundtheus"
@@ -40,9 +41,16 @@ const Projects = () => {
             text="This Instagram look-alike is a Front-End social media page
             on the Worldwide Explorer - Jacques Cousteau."
           />
-          {/* Around the US*/}
+          <Project
+            title="Triple Peaks"
+            img={triplepeaks}
+            live={true}
+            link="https://bouderton.github.io/se_project_coffeeshop/"
+            repo="https://github.com/Bouderton/se_project_coffeeshop?tab=readme-ov-file"
+            text="This is a Front-End application that represents a landing page for a local coffee 
+            shop - Triple Peaks."
+          />
           {/* Slopopedia */}
-          {/* Coffee Shop (MAKE THIS PRETTIER)*/}
           {/* NewsExplorer Backend */}
         </div>
       </section>
