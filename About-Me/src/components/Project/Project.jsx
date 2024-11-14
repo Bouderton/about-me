@@ -1,7 +1,10 @@
 import "./Project.css";
 import { useState } from "react";
-const Project = ({ link, project, title, live, text }) => {
+import github from "../../images/github.svg";
+
+const Project = ({ link, project, title, live, text, repo }) => {
   // use live state to determine a live link to the project
+  // Hover on project turns the card and github logo #3a85ff
   return (
     <>
       <div className="project">
@@ -15,7 +18,20 @@ const Project = ({ link, project, title, live, text }) => {
           >
             <img src={project} className="project__img" alt="Project Image" />
           </a>
-          <p className="project__text">{text}</p>
+          <div className="project__description">
+            <p className="project__text">{text}</p>
+          </div>
+          <div className="project__description-github">
+            <div className="project__github-line"></div>
+            <a
+              style={{ width: "30px", height: "30px" }}
+              href={repo}
+              rel="noopener noreferer"
+              target="_blank"
+            >
+              <img src={github} className="project__github" alt="Github Link" />
+            </a>
+          </div>
         </div>
       </div>
     </>
