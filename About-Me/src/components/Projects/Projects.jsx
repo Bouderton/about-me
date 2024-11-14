@@ -50,6 +50,13 @@ const Projects = () => {
             text="This is a Front-End application that represents a landing page for a local coffee 
             shop - Triple Peaks."
           />
+          <Project
+            title="Slopopedia"
+            repo="https://github.com/jahorwitz/slopopedia"
+            text="During my internship at Slopopedia NPO, I contributed to the
+            development of a movie sharing platform. But all the movies are so bad they're good.
+            At the moment it is NOT live but the repo is public."
+          />
           {/* Slopopedia */}
           {/* NewsExplorer Backend */}
         </div>

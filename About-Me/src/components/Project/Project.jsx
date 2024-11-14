@@ -1,5 +1,5 @@
 import "./Project.css";
-import { useState } from "react";
+// import { useState } from "react";
 import github from "../../images/github.svg";
 
 const Project = ({ link, img, title, live, text, repo }) => {
@@ -14,7 +14,9 @@ const Project = ({ link, img, title, live, text, repo }) => {
             <a href={link} rel="noopener noreferer" target="_blank">
               <img src={img} className="project__img" alt="Project Image" />
             </a>
-          ) : null}
+          ) : (
+            <div style={{ height: "190px", width: "300px" }} />
+          )}
           <div className="project__description">
             <p className="project__text">{text}</p>
           </div>
