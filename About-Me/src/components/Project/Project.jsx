@@ -1,6 +1,7 @@
 import "./Project.css";
 // import { useState } from "react";
 import github from "../../images/github.svg";
+import no_image from "../../images/no_image.svg";
 
 const Project = ({ link, img, title, live, text, repo }) => {
   // use live state to determine a live link to the project
@@ -15,7 +16,7 @@ const Project = ({ link, img, title, live, text, repo }) => {
               <img src={img} className="project__img" alt="Project Image" />
             </a>
           ) : (
-            <div style={{ height: "190px", width: "300px" }} />
+            <img src={no_image} style={{ width: "175px", margin: "0 auto" }} />
           )}
           <div className="project__description">
             <p className="project__text">{text}</p>

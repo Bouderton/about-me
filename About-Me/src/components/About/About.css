@@ -20,14 +20,6 @@
   margin: 0;
 }
 
-/* .about__title::before {
-  content: "< ";
-}
-
-.about__title::after {
-  content: " />";
-} */
-
 .about__img {
   width: 320px;
   height: 380px;
