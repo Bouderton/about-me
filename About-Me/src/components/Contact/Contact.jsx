@@ -32,7 +32,7 @@ const Contact = () => {
           >
             LinkedIn
           </a>{" "}
-          if that's more your speed
+          if that's more your speed.
         </p>
       </div>
     </section>
