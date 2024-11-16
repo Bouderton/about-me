@@ -17,10 +17,10 @@
 
 .header__logo {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 45px;
-  height: 45px;
+  top: 8px;
+  left: 8px;
+  width: 35px;
+  height: 35px;
 }
 
 .header__github {

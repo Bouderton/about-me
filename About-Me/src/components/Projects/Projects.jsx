@@ -54,15 +54,15 @@ const Projects = () => {
           <Project
             title="Slopopedia"
             repo="https://github.com/jahorwitz/slopopedia"
-            text="During my internship at Slopopedia NPO, I contributed to the
-            development of a movie sharing platform. But all the movies are so bad they're good!
+            text="During my internship I contributed to the
+            development of a movie sharing platform.
             However this project is still in development."
           />
           <Project
             title="Busy Day"
             repo="https://github.com/skovakina/spring-to-do?tab=readme-ov-file"
-            text="Busy Day is a team project I worked on with 2 other developers,
-            which is an enhanced Spring themed to-do list. Our project went on to win first place via unanimous vote!"
+            text="Busy Day is a 1st Place Winner team project I worked on with 2 other developers,
+            which is an enhanced Spring themed to-do list."
             live={true}
             link="https://skovakina.github.io/spring-to-do/"
             img={busy_day}

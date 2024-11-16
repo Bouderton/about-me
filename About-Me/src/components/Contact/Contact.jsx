@@ -1,29 +1,39 @@
 import "./Contact.css";
-import Break from "../Break/Break";
-import gmail from "../../images/gmail.svg";
-import linkedin from "../../images/linkedin.svg";
 
 const Contact = () => {
   return (
     <section className="contact">
+      <h2 className="contact__title">Contact</h2>
       <div className="contact__info">
-        <h2 className="contact__title">Want to chat? Contact Me Here!</h2>
-        <div className="contact__icons-container">
+        <p className="contact__text">
+          Feel free to shoot me an email at{" "}
           <a
             href="mailto:rmkhazal@gmail.com"
             rel="noopener noreferer"
             target="_blank"
+            style={{
+              textDecoration: "none",
+              color: "#3a85ff",
+              fontWeight: 700,
+            }}
           >
-            <img src={gmail} className="contact__icon" alt="G-mail Icon" />
-          </a>
+            rmkhazal@gmail.com
+          </a>{" "}
+          if you want to connect. You can also find me on{" "}
           <a
             href="https://www.linkedin.com/in/ryankhazal/"
             rel="noopener noreferer"
             target="_blank"
+            style={{
+              color: "#3a85ff",
+              textDecoration: "none",
+              fontWeight: 700,
+            }}
           >
-            <img src={linkedin} className="contact__icon" alt="LinkedIn Icon" />
-          </a>
-        </div>
+            LinkedIn
+          </a>{" "}
+          if that's more your speed
+        </p>
       </div>
     </section>
   );
