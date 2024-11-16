@@ -42,30 +42,3 @@
   font-size: 20px;
   margin: 0;
 }
-
-@media screen and (max-width: 800px) {
-  .about__title {
-    font-size: 20px;
-  }
-
-  .about__text {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .about__container {
-    padding: 60px;
-  }
-
-  .about__title {
-    text-align: center;
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .about__container {
-    padding: 30px;
-  }
-}
