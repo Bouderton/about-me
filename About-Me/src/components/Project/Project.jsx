@@ -2,6 +2,7 @@ import "./Project.css";
 // import { useState } from "react";
 import github from "../../images/github.svg";
 import no_image from "../../images/no_image.svg";
+import { motion } from "motion/react";
 
 const Project = ({ link, img, title, live, text, repo }) => {
   // use live state to determine a live link to the project

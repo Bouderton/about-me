@@ -37,6 +37,7 @@ const Skills = () => {
                 <Skill name={"Music"} />
                 <Skill name={"Cinema"} />
                 <Skill name={"Learning"} />
+                <Skill name={"Reading"} />
               </ul>
             </div>
           </div>
