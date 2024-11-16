@@ -1,7 +1,57 @@
 import "./Skills.css";
 import Skill from "../Skill/Skill";
+import { motion } from "motion/react";
 
 const Skills = () => {
+  const list = {
+    visible: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
+        delay: 0.5,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      transition: {
+        when: "afterChildren",
+      },
+    },
+  };
+
+  const item = {
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+    hidden: { opacity: 0, y: -75 },
+  };
+
+  const techSkillsList = [
+    "React",
+    "JavScript",
+    "HTML",
+    "CSS",
+    "Express",
+    "Git",
+    "Node",
+    "MongoDB",
+    "JSON",
+    "GCP",
+    "Python",
+  ];
+
+  const hobbyList = [
+    "Basketball",
+    "Blender",
+    "Maya",
+    "Photoshop",
+    "Music",
+    "Cinema",
+    "Learning",
+    "Reading",
+  ];
   return (
     <>
       <div className="skills">
@@ -11,34 +61,41 @@ const Skills = () => {
         <div className="skills__content">
           <div className="skills__list-container">
             <h3 className="skills__tech-title">Tech I Use</h3>
-            <ul className="skills__list">
-              <Skill name={"React"} />
-              <Skill name={"JavaScript"} />
-              <Skill name={"HTML"} />
-              <Skill name={"CSS"} />
-              <Skill name={"Express"} />
-              <Skill name={"Git"} />
-              <Skill name={"Node"} />
-              <Skill name={"MongoDB"} />
-              <Skill name={"JSON"} />
-              <Skill name={"GCP"} />
-              <Skill name={"Python"} />
-            </ul>
+            <motion.ul
+              className="skills__list"
+              variants={list}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              {techSkillsList.map((techSkill, index) => {
+                return (
+                  <motion.li custom={index} variants={item}>
+                    <Skill name={techSkill} />
+                  </motion.li>
+                );
+              })}
+            </motion.ul>
             <div
               className="skills__list-container"
               style={{ marginTop: "35px" }}
             >
               <h3 className="skills__tech-title">Other Stuff I Enjoy</h3>
-              <ul className="skills__list">
-                <Skill name={"Basketball"} />
-                <Skill name={"Blender"} />
-                <Skill name={"Maya"} />
-                <Skill name={"Photoshop"} />
-                <Skill name={"Music"} />
-                <Skill name={"Cinema"} />
-                <Skill name={"Learning"} />
-                <Skill name={"Reading"} />
-              </ul>
+              <motion.ul
+                className="skills__list"
+                variants={list}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                {hobbyList.map((hobby, index) => {
+                  return (
+                    <motion.li custom={index} variants={item}>
+                      <Skill name={hobby} />
+                    </motion.li>
+                  );
+                })}
+              </motion.ul>
             </div>
           </div>
 
