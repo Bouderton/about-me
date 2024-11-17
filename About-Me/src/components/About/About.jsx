@@ -35,7 +35,7 @@ const About = () => {
             </p>
           </div>
           <motion.img
-            initial={{ opacity: 0, y: 25, scale: 0.9 }}
+            initial={{ opacity: 0, y: 75, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 0.75, duration: 0.75 }}
             viewport={{ once: true }}

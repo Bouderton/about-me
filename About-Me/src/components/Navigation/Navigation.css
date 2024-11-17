@@ -22,7 +22,7 @@
 .nav__buttons-container {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 50px;
 }
 
 .nav__button {
@@ -37,11 +37,11 @@
 }
 
 .nav__icons-container {
-  /* height: 24px; */
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  /* max-width: 100px; */
 }
 
 .nav__icon {

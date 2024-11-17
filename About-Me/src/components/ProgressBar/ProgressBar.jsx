@@ -5,12 +5,6 @@ const MotionView = () => {
 
   return (
     <>
-      {/* <motion.div
-          style={{ height: "200px", background: "black" }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.75 }}
-        /> */}
       <motion.div
         style={{
           scaleX: scrollYProgress,
