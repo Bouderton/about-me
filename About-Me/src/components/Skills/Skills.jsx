@@ -1,57 +1,9 @@
 import "./Skills.css";
 import Skill from "../Skill/Skill";
 import { motion } from "motion/react";
+import { list, item, techSkillsList, hobbyList } from "../../utils/consts";
 
 const Skills = () => {
-  const list = {
-    visible: {
-      opacity: 1,
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.2,
-        delay: 0.5,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      transition: {
-        when: "afterChildren",
-      },
-    },
-  };
-
-  const item = {
-    visible: {
-      opacity: 1,
-      y: 0,
-    },
-    hidden: { opacity: 0, y: -75 },
-  };
-
-  const techSkillsList = [
-    "React",
-    "JavScript",
-    "HTML",
-    "CSS",
-    "Express",
-    "Git",
-    "Node",
-    "MongoDB",
-    "JSON",
-    "GCP",
-    "Python",
-  ];
-
-  const hobbyList = [
-    "Basketball",
-    "Blender",
-    "Maya",
-    "Photoshop",
-    "Music",
-    "Cinema",
-    "Learning",
-    "Reading",
-  ];
   return (
     <>
       <div className="skills">
