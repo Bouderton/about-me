@@ -16,7 +16,7 @@ const Logo = () => {
         height="235"
         rx="117.5"
         stroke="white"
-        stroke-width="5"
+        strokeWidth="5"
         initial={{ opacity: 0, pathLength: 0 }}
         animate={{ opacity: 1, pathLength: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}

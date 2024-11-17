@@ -73,7 +73,21 @@ const Navigation = () => {
             target="_blank"
           >
             <button className="nav__icon" type="button">
-              <img src={linkedin} alt="LinkedIn Icon" />
+              <motion.img
+                initial={{ scale: 1, x: 0, y: 0 }}
+                whileHover={{
+                  scale: 1.25,
+                  x: -3,
+                  y: -3,
+                  backgroundColor: "#3a85ff",
+                  padding: "3px",
+                  borderRadius: "3px",
+                }}
+                whileTap={{ scale: 0.75 }}
+                transition={{ type: "spring", bounce: 0.5 }}
+                src={linkedin}
+                alt="LinkedIn Icon"
+              />
             </button>
           </a>
           <a
@@ -83,7 +97,21 @@ const Navigation = () => {
             target="_blank"
           >
             <button className="nav__icon" type="button">
-              <img src={github} alt="Github Icon" />
+              <motion.img
+                initial={{ scale: 1, x: 0, y: 0 }}
+                whileHover={{
+                  scale: 1.25,
+                  x: -3,
+                  y: -3,
+                  backgroundColor: "#3a85ff",
+                  padding: "3px",
+                  borderRadius: "3px",
+                }}
+                whileTap={{ scale: 0.75 }}
+                transition={{ type: "spring", bounce: 0.5 }}
+                src={github}
+                alt="Github Icon"
+              />
             </button>
           </a>
           {/* Email Icon Coming Soon*/}

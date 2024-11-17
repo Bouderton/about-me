@@ -37,7 +37,7 @@
 }
 
 .nav__icons-container {
-  height: 24px;
+  /* height: 24px; */
   display: flex;
   flex-direction: row;
   align-items: center;
