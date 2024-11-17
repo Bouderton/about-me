@@ -1,11 +1,6 @@
 import "./Projects.css";
 import "../Project/Project";
 import Project from "../Project/Project";
-// import NewsExplorerLive from "../../images/newsexpl.png";
-// import wtwr from "../../images/wtwr.png";
-// import aroundtheus from "../../images/aroundtheus.png";
-// import triplepeaks from "../../images/triplepeaks.png";
-// import busy_day from "../../images/busy_day.png";
 import { motion } from "motion/react";
 import {
   list,
