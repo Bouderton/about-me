@@ -6,7 +6,13 @@ import { list, item, techSkillsList, hobbyList } from "../../utils/consts";
 const Skills = () => {
   return (
     <>
-      <div className="skills">
+      <motion.section
+        className="skills"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.5 }}
+        viewport={{ once: true }}
+      >
         <div className="skills__title-container">
           <h2 className="skills__title">What I Do</h2>
         </div>
@@ -59,7 +65,7 @@ const Skills = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.section>
     </>
   );
 };

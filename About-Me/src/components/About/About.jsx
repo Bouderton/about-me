@@ -9,7 +9,7 @@ const About = () => {
         className="about"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 0.7 }}
+        transition={{ delay: 0.4, duration: 0.5 }}
         viewport={{ once: true }}
       >
         <div className="about__title-container">
@@ -34,7 +34,15 @@ const About = () => {
               explore the unknowns of the expanding universe.
             </p>
           </div>
-          <img className="about__img" src={me} alt="Ryan Khazal Photo" />
+          <motion.img
+            initial={{ opacity: 0, y: 25, scale: 0.9 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ delay: 0.75, duration: 0.75 }}
+            viewport={{ once: true }}
+            className="about__img"
+            src={me}
+            alt="Ryan Khazal Photo"
+          />
         </div>
       </motion.section>
     </>
