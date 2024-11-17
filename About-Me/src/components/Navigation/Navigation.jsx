@@ -1,7 +1,6 @@
 import "./Navigation.css";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
-import { navButtons } from "../../utils/consts";
 import { motion } from "motion/react";
 
 const Navigation = () => {
@@ -10,8 +9,13 @@ const Navigation = () => {
       <div className="nav__content">
         <div className="nav__buttons-container">
           <motion.button
-            initial={{ background: "transparent", scale: 1 }}
-            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            initial={{ scale: 1 }}
+            whileHover={{
+              backgroundColor: "#3a85ff",
+              borderRadius: "8px",
+              scale: 1.2,
+              padding: "5px",
+            }}
             transition={{ type: "spring", bounce: 0.5 }}
             type="text"
             className="nav__button"
@@ -19,8 +23,13 @@ const Navigation = () => {
             Home
           </motion.button>
           <motion.button
-            initial={{ background: "transparent", scale: 1 }}
-            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            initial={{ scale: 1 }}
+            whileHover={{
+              backgroundColor: "#3a85ff",
+              borderRadius: "8px",
+              scale: 1.2,
+              padding: "5px",
+            }}
             transition={{ type: "spring", bounce: 0.5 }}
             type="text"
             className="nav__button"
@@ -28,8 +37,13 @@ const Navigation = () => {
             About
           </motion.button>
           <motion.button
-            initial={{ background: "transparent", scale: 1 }}
-            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            initial={{ scale: 1 }}
+            whileHover={{
+              backgroundColor: "#3a85ff",
+              borderRadius: "8px",
+              scale: 1.2,
+              padding: "5px",
+            }}
             transition={{ type: "spring", bounce: 0.5 }}
             type="text"
             className="nav__button"
@@ -37,8 +51,13 @@ const Navigation = () => {
             Projects
           </motion.button>
           <motion.button
-            initial={{ background: "transparent", scale: 1 }}
-            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            initial={{ scale: 1 }}
+            whileHover={{
+              backgroundColor: "#3a85ff",
+              borderRadius: "8px",
+              scale: 1.2,
+              padding: "5px",
+            }}
             transition={{ type: "spring", bounce: 0.5 }}
             type="text"
             className="nav__button"
