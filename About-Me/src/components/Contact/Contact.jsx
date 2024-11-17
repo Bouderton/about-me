@@ -1,10 +1,25 @@
 import "./Contact.css";
+import { motion } from "motion/react";
 
 const Contact = () => {
   return (
     <section className="contact">
-      <h2 className="contact__title">Contact</h2>
-      <div className="contact__info">
+      <motion.h2
+        initial={{ opacity: 0, scale: 0.95, y: 100 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 0.25, duration: 0.5 }}
+        viewport={{ once: true }}
+        className="contact__title"
+      >
+        Contact
+      </motion.h2>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95, y: 100 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        viewport={{ once: true }}
+        className="contact__info"
+      >
         <p className="contact__text">
           Feel free to shoot me an email at{" "}
           <a
@@ -34,7 +49,7 @@ const Contact = () => {
           </a>{" "}
           if that's more your speed.
         </p>
-      </div>
+      </motion.div>
     </section>
   );
 };

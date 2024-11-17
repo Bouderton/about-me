@@ -2,7 +2,7 @@ import { motion, useScroll, useSpring } from "motion/react";
 
 const MotionView = () => {
   const { scrollYProgress } = useScroll();
-  const bar = useSpring(scrollYProgress, { stiffness: 125 });
+  const bar = useSpring(scrollYProgress, { stiffness: 50 });
 
   return (
     <>

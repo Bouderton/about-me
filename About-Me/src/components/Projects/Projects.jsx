@@ -2,13 +2,7 @@ import "./Projects.css";
 import "../Project/Project";
 import Project from "../Project/Project";
 import { motion } from "motion/react";
-import {
-  list,
-  item,
-  projectsList,
-  projectItem,
-  projectList,
-} from "../../utils/consts";
+import { projectsList, projectItem, projectList } from "../../utils/consts";
 
 const Projects = () => {
   return (
