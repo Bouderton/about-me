@@ -7,7 +7,13 @@ import Project from "../Project/Project";
 // import triplepeaks from "../../images/triplepeaks.png";
 // import busy_day from "../../images/busy_day.png";
 import { motion } from "motion/react";
-import { list, item, projectsList } from "../../utils/consts";
+import {
+  list,
+  item,
+  projectsList,
+  projectItem,
+  projectList,
+} from "../../utils/consts";
 
 const Projects = () => {
   return (
@@ -24,7 +30,7 @@ const Projects = () => {
           <h2 className="projects__title">What I've Done</h2>
         </motion.div>
         <motion.ul
-          variants={list}
+          variants={projectList}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -32,7 +38,7 @@ const Projects = () => {
         >
           {projectsList.map((project, index) => {
             return (
-              <motion.li custom={index} key={index} variants={item}>
+              <motion.li custom={index} key={index} variants={projectItem}>
                 <Project
                   title={project.title}
                   name={project.name}

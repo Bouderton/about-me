@@ -29,6 +29,35 @@ export const item = {
   hidden: { opacity: 0, y: -75 },
 };
 
+export const projectList = {
+  visible: {
+    opacity: 1,
+    transition: {
+      when: "beforeChildren",
+      staggerChildren: 0.45,
+      delay: 0.75,
+    },
+  },
+  hidden: {
+    opacity: 0,
+    transition: {
+      when: "afterChildren",
+    },
+  },
+};
+
+export const projectItem = {
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      bounce: 0.6,
+    },
+  },
+  hidden: { opacity: 0, y: -50 },
+};
+
 export const techSkillsList = [
   "React",
   "JavScript",
