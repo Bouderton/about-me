@@ -1,15 +1,15 @@
-import { motion, useScroll } from "motion/react";
+import { motion, useScroll, useSpring } from "motion/react";
 
 const MotionView = () => {
   const { scrollYProgress } = useScroll();
+  const bar = useSpring(scrollYProgress, { stiffness: 125 });
 
   return (
     <>
       <motion.div
         style={{
-          scaleX: scrollYProgress,
+          scaleX: bar,
           background: "#3a85ff",
-          borderRadius: "0 50px 50px 0",
           transformOrigin: "left",
           position: "fixed",
           bottom: 0,
