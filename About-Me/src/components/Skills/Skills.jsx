@@ -22,7 +22,7 @@ const Skills = () => {
             >
               {techSkillsList.map((techSkill, index) => {
                 return (
-                  <motion.li custom={index} variants={item}>
+                  <motion.li custom={index} variants={item} key={index}>
                     <Skill name={techSkill} />
                   </motion.li>
                 );
@@ -42,7 +42,7 @@ const Skills = () => {
               >
                 {hobbyList.map((hobby, index) => {
                   return (
-                    <motion.li custom={index} variants={item}>
+                    <motion.li custom={index} variants={item} key={index}>
                       <Skill name={hobby} />
                     </motion.li>
                   );
