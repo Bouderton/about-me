@@ -1,8 +1,9 @@
 import "./Header.css";
 import { useState } from "react";
 import Navigation from "../Navigation/Navigation";
-import rklogo from "../../images/rklogo.svg";
-import { motion, AnimatePresence } from "motion/react";
+// import rklogo from "../../images/rklogo.svg";
+import { motion } from "motion/react";
+import Logo from "../Logo/Logo";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,7 +38,9 @@ const Header = () => {
           </div>
           <h2 className="header__title">Ryan Khazal</h2>
           {/* <p className="header__subtitle">Full-Stack Software Engineer</p> */}
-          <img src={rklogo} alt="logo" className="header__logo" />
+          <div className="header__logo">
+            <Logo />
+          </div>
           <p className="header__text">
             // I am a Full-Stack Software Engineer from Las Vegas, Nevada
             looking for opportunities in the tech world.
