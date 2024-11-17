@@ -1,6 +1,7 @@
 .projects {
   margin: 0 auto;
   padding: 50px 50px;
+  max-width: 1200px;
 }
 
 .projects__content {
