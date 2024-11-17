@@ -5,8 +5,17 @@ import { motion } from "motion/react";
 const About = () => {
   return (
     <>
-      <section className="about">
-        <h2 className="about__title">About Me</h2>
+      <motion.section
+        className="about"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.75 }}
+        viewport={{ once: true }}
+      >
+        <div className="about__title-container">
+          <h2 className="about__title">About Me</h2>
+          <div className="about__line" />
+        </div>
         <div className="about__content">
           <div className="about__text-container">
             <p className="about__text">
@@ -25,16 +34,9 @@ const About = () => {
               explore the unknowns of the expanding universe.
             </p>
           </div>
-          <motion.img
-            className="about__img"
-            src={me}
-            alt="Ryan Khazal Photo"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          />
+          <img className="about__img" src={me} alt="Ryan Khazal Photo" />
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };
