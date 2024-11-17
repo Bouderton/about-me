@@ -1,6 +1,7 @@
 import "./Projects.css";
 import "../Project/Project";
 import Project from "../Project/Project";
+import Break from "../Break/Break";
 import { motion } from "motion/react";
 import { projectsList, projectItem, projectList } from "../../utils/consts";
 
@@ -15,7 +16,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="projects__title-container"
         >
-          <div className="projects__line" />
+          <Break direction="right" />
           <h2 className="projects__title">What I've Done</h2>
         </motion.div>
         <motion.ul

@@ -1,5 +1,6 @@
 import "./Skills.css";
 import Skill from "../Skill/Skill";
+import Break from "../Break/Break";
 import { motion } from "motion/react";
 import { list, item, techSkillsList, hobbyList } from "../../utils/consts";
 
@@ -14,9 +15,9 @@ const Skills = () => {
         viewport={{ once: true }}
       >
         <div className="skills__title-container">
-          <div className="skills__line" />
+          <Break direction="right" />
           <h2 className="skills__title">What I Do</h2>
-          <div className="skills__line" />
+          <Break direction="left" />
         </div>
         <div className="skills__content">
           <div className="skills__list-container">

@@ -19,18 +19,9 @@
   margin: 0 0 50px;
 }
 
-.projects__line {
-  display: block;
-  margin: auto 0;
-  height: 1px;
-  width: 60%;
-  background: #fbfbfc;
-  opacity: 0.5;
-}
-
 .projects__title {
   font-size: 40px;
   margin: 0;
   text-align: center;
-  width: 350px;
+  flex-shrink: 0;
 }

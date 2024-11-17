@@ -1,18 +1,23 @@
 import "./Contact.css";
+import Break from "../Break/Break";
 import { motion } from "motion/react";
 
 const Contact = () => {
   return (
     <section className="contact">
-      <motion.h2
-        initial={{ opacity: 0, scale: 0.95, y: 100 }}
-        whileInView={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ delay: 0.25, duration: 0.5 }}
-        viewport={{ once: true }}
-        className="contact__title"
-      >
-        Contact
-      </motion.h2>
+      <div className="contact__title-container">
+        <Break direction="right" />
+        <motion.h2
+          initial={{ opacity: 0, scale: 0.95, y: 100 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ delay: 0.25, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="contact__title"
+        >
+          Contact
+        </motion.h2>
+        <Break direction="left" />
+      </div>
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 100 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}

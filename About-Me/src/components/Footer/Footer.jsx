@@ -13,6 +13,7 @@ const Footer = () => {
               opacity: 1,
               transition: { duration: 0.75 },
             }}
+            viewport={{ once: true }}
             className="footer__text"
           >
             Developed by Ryan Khazal
@@ -24,6 +25,7 @@ const Footer = () => {
               opacity: 1,
               transition: { duration: 0.75 },
             }}
+            viewport={{ once: true }}
             className="footer__text"
           >
             2024

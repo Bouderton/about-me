@@ -1,5 +1,6 @@
 import "./About.css";
 import me from "../../images/me.jpeg";
+import Break from "../Break/Break";
 import { motion } from "motion/react";
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
       >
         <div className="about__title-container">
           <h2 className="about__title">About Me</h2>
-          <div className="about__line" />
+          <Break direction="left" />
         </div>
         <div className="about__content">
           <div className="about__text-container">
