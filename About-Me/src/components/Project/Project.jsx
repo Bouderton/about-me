@@ -16,7 +16,6 @@ const Project = ({ link, img, title, live, text, repo }) => {
           whileHover={{
             scale: 1.05,
             background: "#3a85ff",
-            // transition: { duration: 1, ease: "easeInOut" },
             color: "#fbfbfc",
           }}
           className="project"
@@ -54,7 +53,7 @@ const Project = ({ link, img, title, live, text, repo }) => {
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.3 }}
                   transition={{ duration: 0.2 }}
-                  whileTap={{ scale: 0.5 }}
+                  whileTap={{ scale: 0.75 }}
                   src={githubwhite}
                   className="project__github"
                   alt="Github Link"

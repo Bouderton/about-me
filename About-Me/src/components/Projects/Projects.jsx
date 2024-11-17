@@ -1,74 +1,52 @@
 import "./Projects.css";
 import "../Project/Project";
 import Project from "../Project/Project";
-import NewsExplorerLive from "../../images/NewsExplorerLive.png";
-import wtwr from "../../images/wtwr.png";
-import aroundtheus from "../../images/aroundtheus.png";
-import triplepeaks from "../../images/triplepeaks.png";
-import busy_day from "../../images/busy_day.png";
+// import NewsExplorerLive from "../../images/newsexpl.png";
+// import wtwr from "../../images/wtwr.png";
+// import aroundtheus from "../../images/aroundtheus.png";
+// import triplepeaks from "../../images/triplepeaks.png";
+// import busy_day from "../../images/busy_day.png";
+import { motion } from "motion/react";
+import { list, item, projectsList } from "../../utils/consts";
 
 const Projects = () => {
   return (
     <>
       <section className="projects">
-        <h2 className="projects__title">What I've Done</h2>
-        <div className="projects__content">
-          <Project
-            repo="https://github.com/Bouderton/news_explorer_frontend"
-            link="https://newsexplorer.utdnews.com/"
-            img={NewsExplorerLive}
-            live={true}
-            title="News Explorer"
-            text="NewsExplorer is a dynamic Full Stack Web Application 
-            designed to provide users with a seamless way to explore, search, 
-            and save the latest news articles."
-          />
-          <Project
-            img={wtwr}
-            live={true}
-            title="What to Wear"
-            link="https://wtwr.mindhackers.org/"
-            repo="https://github.com/Bouderton/se_project_react"
-            text="What To Wear is a responsive Full Stack Web Application
-            that fetches realtime location and weather data to suggest the user
-            clothing items to wear."
-          />
-          <Project
-            repo="https://github.com/Bouderton/se_project_aroundtheus"
-            title="Around The US"
-            live={true}
-            img={aroundtheus}
-            link="https://bouderton.github.io/se_project_aroundtheus/"
-            text="This Instagram look-alike is a Front-End social media page
-            on the Worldwide Explorer - Jacques Cousteau."
-          />
-          <Project
-            title="Triple Peaks"
-            img={triplepeaks}
-            live={true}
-            link="https://bouderton.github.io/se_project_coffeeshop/"
-            repo="https://github.com/Bouderton/se_project_coffeeshop?tab=readme-ov-file"
-            text="This is a Front-End application that represents a landing page for a local coffee 
-            shop - Triple Peaks."
-          />
-          <Project
-            title="Slopopedia"
-            repo="https://github.com/jahorwitz/slopopedia"
-            text="During my internship I contributed to the
-            development of a movie sharing platform.
-            However this project is still in development."
-          />
-          <Project
-            title="Busy Day"
-            repo="https://github.com/skovakina/spring-to-do?tab=readme-ov-file"
-            text="Busy Day is a 1st Place Winner team project I worked on with 2 other developers,
-            which is an enhanced Spring themed to-do list."
-            live={true}
-            link="https://skovakina.github.io/spring-to-do/"
-            img={busy_day}
-          />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95, y: 100 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="projects__title-container"
+        >
+          <div className="projects__line" />
+          <h2 className="projects__title">What I've Done</h2>
+        </motion.div>
+        <motion.ul
+          variants={list}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="projects__content"
+        >
+          {projectsList.map((project, index) => {
+            return (
+              <motion.li custom={index} key={index} variants={item}>
+                <Project
+                  title={project.title}
+                  name={project.name}
+                  repo={project.repo}
+                  link={project.link}
+                  live={project.live}
+                  img={project?.img}
+                  text={project.text}
+                />
+              </motion.li>
+            );
+          })}
           {/* NewsExplorer Backend */}
-        </div>
+        </motion.ul>
       </section>
     </>
   );
