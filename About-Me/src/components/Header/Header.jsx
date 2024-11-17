@@ -1,12 +1,9 @@
 import "./Header.css";
-import { useState } from "react";
 import Navigation from "../Navigation/Navigation";
-// import rklogo from "../../images/rklogo.svg";
 import { motion } from "motion/react";
 import Logo from "../Logo/Logo";
 
 const Header = () => {
-  const [isVisible, setIsVisible] = useState(false);
   return (
     <>
       <Navigation />
@@ -36,15 +33,28 @@ const Header = () => {
               COOL ANIMATION COMING SOON
             </motion.h1>
           </div>
-          <h2 className="header__title">Ryan Khazal</h2>
+          <motion.h2
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+            viewport={{ once: true }}
+            className="header__title"
+          >
+            Ryan Khazal
+          </motion.h2>
           {/* <p className="header__subtitle">Full-Stack Software Engineer</p> */}
           <div className="header__logo">
             <Logo />
           </div>
-          <p className="header__text">
-            // I am a Full-Stack Software Engineer from Las Vegas, Nevada
-            looking for opportunities in the tech world.
-          </p>
+          <motion.p
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.75, duration: 0.7 }}
+            viewport={{ once: true }}
+            className="header__text"
+          >
+            I am a Full-Stack Software Engineer looking for new opportunities.
+          </motion.p>
         </div>
       </header>
     </>

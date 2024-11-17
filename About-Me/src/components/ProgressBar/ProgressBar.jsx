@@ -1,5 +1,3 @@
-import { useRef } from "react";
-import "./Motion.css";
 import { motion, useScroll } from "motion/react";
 
 const MotionView = () => {

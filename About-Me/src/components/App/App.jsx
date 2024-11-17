@@ -7,7 +7,7 @@ import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
-import ProgressBar from "../Motion/ProgressBar";
+import ProgressBar from "../ProgressBar/ProgressBar";
 import Footer from "../Footer/Footer";
 function App() {
   return (
