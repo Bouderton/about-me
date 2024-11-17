@@ -1,25 +1,50 @@
 import "./Navigation.css";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
+import { navButtons } from "../../utils/consts";
+import { motion } from "motion/react";
 
 const Navigation = () => {
   return (
     <section className="nav">
       <div className="nav__content">
-        {/* <h3 className="nav__content-title">Ryan Khazal</h3> */}
         <div className="nav__buttons-container">
-          <button type="text" className="nav__button">
+          <motion.button
+            initial={{ background: "transparent", scale: 1 }}
+            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            transition={{ type: "spring", bounce: 0.5 }}
+            type="text"
+            className="nav__button"
+          >
             Home
-          </button>
-          <button type="text" className="nav__button">
+          </motion.button>
+          <motion.button
+            initial={{ background: "transparent", scale: 1 }}
+            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            transition={{ type: "spring", bounce: 0.5 }}
+            type="text"
+            className="nav__button"
+          >
             About
-          </button>
-          <button type="text" className="nav__button">
+          </motion.button>
+          <motion.button
+            initial={{ background: "transparent", scale: 1 }}
+            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            transition={{ type: "spring", bounce: 0.5 }}
+            type="text"
+            className="nav__button"
+          >
             Projects
-          </button>
-          <button type="text" className="nav__button">
+          </motion.button>
+          <motion.button
+            initial={{ background: "transparent", scale: 1 }}
+            whileHover={{ background: "#3a85ff", scale: 1.2 }}
+            transition={{ type: "spring", bounce: 0.5 }}
+            type="text"
+            className="nav__button"
+          >
             Resume
-          </button>
+          </motion.button>
         </div>
         <div className="nav__icons-container">
           <a

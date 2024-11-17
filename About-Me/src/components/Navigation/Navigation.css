@@ -31,14 +31,15 @@
   outline: none;
   color: #d8d9da;
   font-size: 18px;
-  height: 24px;
+  height: 30px;
   padding: 0;
+  cursor: pointer;
 }
 
-.nav__button:hover {
+/* .nav__button:hover {
   cursor: pointer;
   opacity: 75%;
-}
+} */
 
 .nav__icons-container {
   height: 24px;
@@ -56,9 +57,10 @@
   margin: 0;
   height: 24px;
   width: 24px;
+  cursor: pointer;
 }
 
-.nav__icon:hover {
+/* .nav__icon:hover {
   cursor: pointer;
   opacity: 75%;
-}
+} */
