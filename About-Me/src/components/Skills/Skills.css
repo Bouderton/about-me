@@ -14,10 +14,26 @@
   justify-content: space-between;
 }
 
+.skills__title-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills__line {
+  display: block;
+  margin: auto 0;
+  height: 1px;
+  width: 50%;
+  background: #fbfbfc;
+  opacity: 0.5;
+}
+
 .skills__title {
   font-size: 40px;
   margin: 0;
   text-align: center;
+  width: 300px;
 }
 
 .skills__list-container {

@@ -14,7 +14,9 @@ const Skills = () => {
         viewport={{ once: true }}
       >
         <div className="skills__title-container">
+          <div className="skills__line" />
           <h2 className="skills__title">What I Do</h2>
+          <div className="skills__line" />
         </div>
         <div className="skills__content">
           <div className="skills__list-container">
@@ -57,13 +59,19 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="skills__text-container">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95, y: 50 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ delay: 0.75, duration: 0.3 }}
+            viewport={{ once: true }}
+            className="skills__text-container"
+          >
             <p className="skills__text">
               I specialize in creating responsive and intuitive web applications
               fit for all devices with modern technology. Insert more bullshit
               to get me hired :3
             </p>
-          </div>
+          </motion.div>
         </div>
       </motion.section>
     </>
