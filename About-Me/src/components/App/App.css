@@ -6,9 +6,10 @@
 
 body {
   margin: 0 auto;
-  background: #272829;
-  color: #fff6e0;
+  background: #18181a;
+  color: #fafbfd;
   min-width: 320px;
   /* Placeholder font  */
   font-family: Arial;
+  letter-spacing: 2px;
 }

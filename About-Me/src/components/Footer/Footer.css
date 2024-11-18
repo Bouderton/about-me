@@ -1,0 +1,16 @@
+.footer {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+.footer__text-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.footer__text {
+  font-size: 15px;
+  margin: 0;
+}

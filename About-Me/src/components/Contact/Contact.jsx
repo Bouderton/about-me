@@ -1,30 +1,58 @@
 import "./Contact.css";
 import Break from "../Break/Break";
-import gmail from "../../images/gmail.svg";
-import linkedin from "../../images/linkedin.svg";
+import { motion } from "motion/react";
 
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="contact__info">
-        <h2 className="contact__title">Want to chat? Contact Me Here!</h2>
-        <div className="contact__icons-container">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95, y: 100 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 0.25, duration: 0.5 }}
+        viewport={{ once: true }}
+        className="contact__title-container"
+      >
+        <Break direction="right" />
+        <h2 className="contact__title">Contact</h2>
+        <Break direction="left" />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95, y: 100 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        viewport={{ once: true }}
+        className="contact__info"
+      >
+        <p className="contact__text">
+          Feel free to shoot me an email at{" "}
           <a
             href="mailto:rmkhazal@gmail.com"
             rel="noopener noreferer"
             target="_blank"
+            style={{
+              textDecoration: "none",
+              color: "#3a85ff",
+              fontWeight: 700,
+            }}
           >
-            <img src={gmail} className="contact__icon" alt="G-mail Icon" />
-          </a>
+            rmkhazal@gmail.com
+          </a>{" "}
+          if you want to connect. You can also find me on{" "}
           <a
             href="https://www.linkedin.com/in/ryankhazal/"
             rel="noopener noreferer"
             target="_blank"
+            style={{
+              color: "#3a85ff",
+              textDecoration: "none",
+              fontWeight: 700,
+            }}
           >
-            <img src={linkedin} className="contact__icon" alt="LinkedIn Icon" />
-          </a>
-        </div>
-      </div>
+            LinkedIn
+          </a>{" "}
+          if that's more your speed.
+        </p>
+      </motion.div>
     </section>
   );
 };
