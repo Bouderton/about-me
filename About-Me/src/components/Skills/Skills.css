@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .skills {
     padding: 25px;
   }
@@ -170,6 +170,13 @@
 @media screen and (max-width: 500px) {
   .skills__content {
     gap: 75px;
+  }
+
+  .skills__title {
+    font-size: 25px;
+  }
+  .skills__title-container {
+    gap: 8px;
   }
 
   .skills__item {

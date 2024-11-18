@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   gap: 20px;
   list-style-type: none;
+  padding: 0;
 }
 
 .projects__title-container {
@@ -24,4 +25,29 @@
   margin: 0;
   text-align: center;
   flex-shrink: 0;
+}
+
+@media screen and (max-width: 975px) {
+  .projects__title {
+    font-size: 30px;
+  }
+  .projects__title-container {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .projects {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__title {
+    font-size: 25px;
+  }
+
+  .projects__title-container {
+    margin: 0 0 75px;
+  }
 }

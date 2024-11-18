@@ -58,6 +58,10 @@
     margin: 30px 0 0;
   }
 
+  .about__title-container {
+    gap: 10px;
+  }
+
   .about__title {
     font-size: 30px;
   }
@@ -69,6 +73,12 @@
 
   .about__img {
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    padding: 25px;
   }
 }
 
@@ -95,10 +105,10 @@
   }
 }
 
-@media screen and (max-width: 550px) {
-  .about {
+@media screen and (max-width: 575px) {
+  /* .about {
     padding: 25px;
-  }
+  } */
 
   .about__img {
     width: 220px;
