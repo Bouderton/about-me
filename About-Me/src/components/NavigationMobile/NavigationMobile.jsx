@@ -5,19 +5,27 @@ import { motion, AnimatePresence } from "motion/react";
 import { list } from "../../utils/consts";
 
 const NavigationMobile = ({
-  scrollRef,
+  mobileRef,
   aboutRef,
   skillsRef,
   projectsRef,
   contactRef,
   handleClick,
   isOpen,
-  setIsOpen,
 }) => {
   return (
     <>
-      <nav className="nav__mobile" ref={scrollRef}>
-        <Logo setIsOpen={setIsOpen} scrollRef={scrollRef} />
+      <nav className="nav__mobile" ref={mobileRef}>
+        <div
+          className="nav__mobile-logo"
+          onClick={() => {
+            mobileRef.current?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          <Logo />
+        </div>
         <MenuButton handleClick={handleClick} isOpen={isOpen} />
         <AnimatePresence>
           {isOpen && (

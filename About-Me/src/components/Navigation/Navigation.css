@@ -105,8 +105,17 @@
 }
 
 .nav__mobile-logo {
+  display: none;
+  visibility: hidden;
   width: 48px;
   height: 48px;
+  position: fixed;
+  z-index: 2;
+  top: 12px;
+  left: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 775px) {
@@ -117,5 +126,10 @@
   .nav {
     display: none;
     visibility: hidden;
+  }
+
+  .nav__mobile-logo {
+    display: contents;
+    visibility: visible;
   }
 }

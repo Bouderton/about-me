@@ -3,8 +3,7 @@ import NavigationMobile from "../NavigationMobile/NavigationMobile";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
 import { motion } from "motion/react";
-import Logo from "../Logo/Logo";
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
 const Navigation = ({
   homeRef,
@@ -14,13 +13,11 @@ const Navigation = ({
   contactRef,
   isOpen,
   handleClick,
-  setIsOpen,
 }) => {
   const mobileRef = useRef();
   return (
     <>
       <nav className="nav" ref={homeRef}>
-        <Logo scrollRef={homeRef} setIsOpen={setIsOpen} />
         <div className="nav__content">
           <div className="nav__buttons-container">
             <motion.button
@@ -221,16 +218,14 @@ const Navigation = ({
         </div>
       </nav>
       <section className="nav__mobile-toggle">
-        <Logo setIsOpen={setIsOpen} scrollRef={mobileRef} />
         <NavigationMobile
-          homeRef={homeRef}
+          mobileRef={mobileRef}
           aboutRef={aboutRef}
           skillsRef={skillsRef}
           projectsRef={projectsRef}
           contactRef={contactRef}
           handleClick={handleClick}
           isOpen={isOpen}
-          setIsOpen={setIsOpen}
         />
       </section>
     </>

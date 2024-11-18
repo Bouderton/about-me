@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-const Logo = ({ scrollRef, setIsOpen }) => {
+const Logo = ({}) => {
   return (
     <>
       <motion.div
@@ -21,12 +21,6 @@ const Logo = ({ scrollRef, setIsOpen }) => {
           cursor: "pointer",
           borderRadius: "50%",
           backgroundColor: "#18181a",
-        }}
-        onClick={() => {
-          scrollRef.current?.scrollIntoView({
-            behavior: "smooth",
-          });
-          // setIsOpen(false);
         }}
       >
         <motion.svg

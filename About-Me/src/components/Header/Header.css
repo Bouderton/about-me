@@ -15,10 +15,11 @@
   justify-content: center;
 }
 
-.header__logo {
+.header__nav-logo {
   width: 48px;
   height: 48px;
   position: fixed;
+  z-index: 2;
   top: 12px;
   left: 12px;
   cursor: pointer;
@@ -81,7 +82,7 @@
     width: 75%;
   }
 
-  .header__logo {
+  .header__nav-logo {
     display: none;
     visibility: hidden;
   }

@@ -22,7 +22,16 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
         isOpen={isOpen}
       />
       <header className="header">
-        {/* <Logo homeRef={homeRef} setIsOpen={setIsOpen} /> */}
+        <div
+          className="header__nav-logo"
+          onClick={() => {
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          <Logo />
+        </div>
         <div className="header__content">
           <div className="header__anim">
             <motion.h1
