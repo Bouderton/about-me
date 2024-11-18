@@ -13,7 +13,7 @@ const Navigation = () => {
             animate={{
               x: 0,
               opacity: 1,
-              transition: { duration: 0.5 },
+              transition: { delay: 1.75, duration: 0.5 },
             }}
             whileHover={{
               backgroundColor: "#3a85ff",
@@ -36,7 +36,7 @@ const Navigation = () => {
             animate={{
               x: 0,
               opacity: 1,
-              transition: { delay: 0.25, duration: 0.5 },
+              transition: { delay: 2, duration: 0.5 },
             }}
             whileHover={{
               backgroundColor: "#3a85ff",
@@ -59,7 +59,7 @@ const Navigation = () => {
             animate={{
               x: 0,
               opacity: 1,
-              transition: { delay: 0.5, duration: 0.5 },
+              transition: { delay: 2.25, duration: 0.5 },
             }}
             whileHover={{
               backgroundColor: "#3a85ff",
@@ -82,7 +82,7 @@ const Navigation = () => {
             animate={{
               x: 0,
               opacity: 1,
-              transition: { delay: 0.75, duration: 0.5 },
+              transition: { delay: 2.5, duration: 0.5 },
             }}
             whileHover={{
               backgroundColor: "#3a85ff",
@@ -115,7 +115,7 @@ const Navigation = () => {
                   opacity: 1,
                   x: 0,
                   transition: {
-                    delay: 0.3,
+                    delay: 2.25,
                     duration: 0.5,
                   },
                 }}
@@ -147,6 +147,7 @@ const Navigation = () => {
                   opacity: 1,
                   x: 0,
                   transition: {
+                    delay: 2,
                     duration: 0.5,
                   },
                 }}

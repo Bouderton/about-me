@@ -27,7 +27,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, y: 75 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1, duration: 0.75 }}
+            transition={{ delay: 1.25, duration: 0.75 }}
             viewport={{ once: true }}
             className="about__text-container"
           >
@@ -49,7 +49,7 @@ const About = () => {
           <motion.img
             initial={{ opacity: 0, y: 75, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ delay: 1.25, duration: 0.75 }}
+            transition={{ delay: 1.75, duration: 0.75 }}
             viewport={{ once: true }}
             className="about__img"
             src={me}
