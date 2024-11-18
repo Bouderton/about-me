@@ -4,7 +4,7 @@ import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
 import { motion } from "motion/react";
 import Logo from "../Logo/Logo";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const Navigation = ({
   homeRef,
@@ -12,29 +12,15 @@ const Navigation = ({
   skillsRef,
   projectsRef,
   contactRef,
+  isOpen,
+  handleClick,
+  setIsOpen,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  function handleClick() {
-    setIsOpen(!isOpen);
-  }
+  const mobileRef = useRef();
   return (
     <>
       <nav className="nav" ref={homeRef}>
-        <motion.div
-          initial={{ backgroundColor: "transparent", borderRadius: "50%" }}
-          whileHover={{
-            backgroundColor: "#3a85ff",
-          }}
-          className="header__logo"
-          onClick={() => {
-            setIsOpen(false);
-            homeRef.current?.scrollIntoView({
-              behavior: "smooth",
-            });
-          }}
-        >
-          <Logo />
-        </motion.div>
+        <Logo scrollRef={homeRef} setIsOpen={setIsOpen} />
         <div className="nav__content">
           <div className="nav__buttons-container">
             <motion.button
@@ -59,6 +45,10 @@ const Navigation = ({
                   type: "spring",
                   bounce: 0.4,
                 },
+              }}
+              whileTap={{
+                scale: 0.7,
+                transition: { duration: 0.25, type: "spring", bounce: 0.25 },
               }}
               type="text"
               className="nav__button"
@@ -88,6 +78,10 @@ const Navigation = ({
                   bounce: 0.4,
                 },
               }}
+              whileTap={{
+                scale: 0.7,
+                transition: { duration: 0.25, type: "spring", bounce: 0.25 },
+              }}
               type="text"
               className="nav__button"
             >
@@ -116,6 +110,10 @@ const Navigation = ({
                   bounce: 0.4,
                 },
               }}
+              whileTap={{
+                scale: 0.7,
+                transition: { duration: 0.25, type: "spring", bounce: 0.25 },
+              }}
               type="text"
               className="nav__button"
             >
@@ -143,6 +141,10 @@ const Navigation = ({
                   type: "spring",
                   bounce: 0.4,
                 },
+              }}
+              whileTap={{
+                scale: 0.7,
+                transition: { duration: 0.25, type: "spring", bounce: 0.25 },
               }}
               type="text"
               className="nav__button"
@@ -219,6 +221,7 @@ const Navigation = ({
         </div>
       </nav>
       <section className="nav__mobile-toggle">
+        <Logo setIsOpen={setIsOpen} scrollRef={mobileRef} />
         <NavigationMobile
           homeRef={homeRef}
           aboutRef={aboutRef}

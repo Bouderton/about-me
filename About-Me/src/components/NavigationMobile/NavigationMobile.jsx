@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { list } from "../../utils/consts";
 
 const NavigationMobile = ({
-  homeRef,
+  scrollRef,
   aboutRef,
   skillsRef,
   projectsRef,
@@ -16,8 +16,8 @@ const NavigationMobile = ({
 }) => {
   return (
     <>
-      <nav className="nav__mobile" ref={homeRef}>
-        <Logo setIsOpen={setIsOpen} homeRef={homeRef} />
+      <nav className="nav__mobile" ref={scrollRef}>
+        <Logo setIsOpen={setIsOpen} scrollRef={scrollRef} />
         <MenuButton handleClick={handleClick} isOpen={isOpen} />
         <AnimatePresence>
           {isOpen && (
@@ -66,6 +66,14 @@ const NavigationMobile = ({
                       duration: 0.25,
                       type: "spring",
                       bounce: 0.4,
+                    },
+                  }}
+                  whileTap={{
+                    scale: 0.8,
+                    transition: {
+                      duration: 0.25,
+                      type: "spring",
+                      bounce: 0.25,
                     },
                   }}
                   type="button"

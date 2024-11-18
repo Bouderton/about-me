@@ -15,6 +15,17 @@
   justify-content: center;
 }
 
+.header__logo {
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
 .header__anim {
   margin: 0 auto 50px;
 }
@@ -58,7 +69,7 @@
   }
 
   .header__text-container {
-    gap: 5px;
+    gap: 10px;
   }
 
   .header__title {
@@ -69,11 +80,20 @@
     font-size: 14px;
     width: 75%;
   }
+
+  .header__logo {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .header__anim {
     margin: 50px auto 100px;
+  }
+
+  .header__text-container {
+    gap: 5px;
   }
 
   .header__title {

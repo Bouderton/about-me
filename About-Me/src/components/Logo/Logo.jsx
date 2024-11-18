@@ -1,10 +1,9 @@
 import { motion } from "motion/react";
 
-const Logo = ({ homeRef, setIsOpen }) => {
+const Logo = ({ scrollRef, setIsOpen }) => {
   return (
     <>
       <motion.div
-        initial={{ backgroundColor: "transparent", borderRadius: "50%" }}
         whileHover={{
           backgroundColor: "#3a85ff",
         }}
@@ -20,12 +19,14 @@ const Logo = ({ homeRef, setIsOpen }) => {
           width: "48px",
           height: "48px",
           cursor: "pointer",
+          borderRadius: "50%",
+          backgroundColor: "#18181a",
         }}
         onClick={() => {
-          homeRef.current?.scrollIntoView({
+          scrollRef.current?.scrollIntoView({
             behavior: "smooth",
           });
-          setIsOpen(false);
+          // setIsOpen(false);
         }}
       >
         <motion.svg

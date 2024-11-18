@@ -9,8 +9,6 @@ const MenuButton = ({ handleClick, isOpen }) => {
         className="nav__mobile-menu-button"
         whileHover={{
           backgroundColor: "#3a85ff",
-          scale: 1.15,
-          transition: { duration: 0.25, type: "spring", bounce: 0.25 },
         }}
         whileTap={{
           scale: 0.8,
@@ -23,6 +21,15 @@ const MenuButton = ({ handleClick, isOpen }) => {
           viewBox="0 0 240 240"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          initial={{ scale: 1 }}
+          whileHover={{
+            scale: 1.15,
+            transition: {
+              duration: 0.25,
+              type: "spring",
+              bounce: 0.25,
+            },
+          }}
         >
           <motion.rect
             x="2.5"

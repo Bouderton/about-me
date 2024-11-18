@@ -1,18 +1,28 @@
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 import { motion } from "motion/react";
+import { useState } from "react";
+import Logo from "../Logo/Logo";
 
 const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  function handleClick() {
+    setIsOpen(!isOpen);
+  }
   return (
     <>
       <Navigation
+        homeRef={homeRef}
         aboutRef={aboutRef}
         skillsRef={skillsRef}
         projectsRef={projectsRef}
         contactRef={contactRef}
-        homeRef={homeRef}
+        handleClick={handleClick}
+        setIsOpen={setIsOpen}
+        isOpen={isOpen}
       />
       <header className="header">
+        {/* <Logo homeRef={homeRef} setIsOpen={setIsOpen} /> */}
         <div className="header__content">
           <div className="header__anim">
             <motion.h1
