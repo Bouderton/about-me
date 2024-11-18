@@ -169,13 +169,12 @@ const Navigation = () => {
                 />
               </button>
             </a>
-            {/* Email Icon Coming Soon*/}
           </div>
         </div>
       </nav>
-      <motion.section className="nav__mobile-toggle">
+      <section className="nav__mobile-toggle">
         <NavigationMobile />
-      </motion.section>
+      </section>
     </>
   );
 };
