@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div className="page">
-      {/* DONT FORGET TO BOLD IMPORTANT TEXT */}
       <Header
         homeRef={homeRef}
         aboutRef={aboutRef}

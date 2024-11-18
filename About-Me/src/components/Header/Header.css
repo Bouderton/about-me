@@ -19,16 +19,6 @@
   margin: 0 auto 50px;
 }
 
-.header__logo {
-  position: fixed;
-  z-index: 2;
-  top: 12px;
-  left: 12px;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-}
-
 .header__github {
   position: fixed;
   bottom: 5px;

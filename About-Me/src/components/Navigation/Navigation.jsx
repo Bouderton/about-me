@@ -3,7 +3,8 @@ import NavigationMobile from "../NavigationMobile/NavigationMobile";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
 import { motion } from "motion/react";
-import { useRef } from "react";
+import Logo from "../Logo/Logo";
+import { useState } from "react";
 
 const Navigation = ({
   homeRef,
@@ -12,9 +13,28 @@ const Navigation = ({
   projectsRef,
   contactRef,
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  function handleClick() {
+    setIsOpen(!isOpen);
+  }
   return (
     <>
       <nav className="nav" ref={homeRef}>
+        <motion.div
+          initial={{ backgroundColor: "transparent", borderRadius: "50%" }}
+          whileHover={{
+            backgroundColor: "#3a85ff",
+          }}
+          className="header__logo"
+          onClick={() => {
+            setIsOpen(false);
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
+          <Logo />
+        </motion.div>
         <div className="nav__content">
           <div className="nav__buttons-container">
             <motion.button
@@ -199,7 +219,16 @@ const Navigation = ({
         </div>
       </nav>
       <section className="nav__mobile-toggle">
-        <NavigationMobile />
+        <NavigationMobile
+          homeRef={homeRef}
+          aboutRef={aboutRef}
+          skillsRef={skillsRef}
+          projectsRef={projectsRef}
+          contactRef={contactRef}
+          handleClick={handleClick}
+          isOpen={isOpen}
+          setIsOpen={setIsOpen}
+        />
       </section>
     </>
   );
