@@ -1,8 +1,6 @@
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 import { motion } from "motion/react";
-import Logo from "../Logo/Logo";
-import { useRef, useState } from "react";
 
 const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
   return (

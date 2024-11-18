@@ -8,6 +8,10 @@ const Logo = ({ homeRef, setIsOpen }) => {
         whileHover={{
           backgroundColor: "#3a85ff",
         }}
+        whileTap={{
+          scale: 0.8,
+          transition: { duration: 0.25, type: "spring", bounce: 0.25 },
+        }}
         style={{
           position: "fixed",
           zIndex: 2,
