@@ -26,30 +26,29 @@ const Skills = () => {
           viewport={{ once: true }}
           className="skills__content"
         >
-          <div className="skills__list-container">
-            <h3 className="skills__tech-title">Tech I Use</h3>
-            <motion.ul
-              className="skills__list"
-              variants={list}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              {techSkillsList.map((techSkill, index) => {
-                return (
-                  <motion.li custom={index} variants={item} key={index}>
-                    <Skill name={techSkill} />
-                  </motion.li>
-                );
-              })}
-            </motion.ul>
-            <div
-              className="skills__list-container"
-              style={{ marginTop: "35px" }}
-            >
-              <h3 className="skills__tech-title">Other Stuff I Enjoy</h3>
+          <div className="skills__lists-container">
+            <div className="skills__list-container">
+              <h3 className="skills__tech-title">Tech I Use</h3>
               <motion.ul
                 className="skills__list"
+                variants={list}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                {techSkillsList.map((techSkill, index) => {
+                  return (
+                    <motion.li custom={index} variants={item} key={index}>
+                      <Skill name={techSkill} />
+                    </motion.li>
+                  );
+                })}
+              </motion.ul>
+            </div>
+            <div className="hobby__list-container">
+              <h3 className="hobby__list-title">Other Stuff I Enjoy</h3>
+              <motion.ul
+                className="hobby__list"
                 variants={list}
                 initial="hidden"
                 whileInView="visible"
@@ -75,8 +74,8 @@ const Skills = () => {
           >
             <p className="skills__text">
               I specialize in creating responsive and intuitive web applications
-              fit for all devices with modern technology. Insert more bullshit
-              to get me hired :3
+              fit for all devices with modern technology. Insert more nice words
+              to get me hired....
             </p>
           </motion.div>
         </motion.div>
