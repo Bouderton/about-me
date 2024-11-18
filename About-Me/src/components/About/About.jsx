@@ -17,6 +17,7 @@ const About = () => {
           <motion.h2
             initial={{ scale: 0.9 }}
             whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
             className="about__title"
           >
             About Me
