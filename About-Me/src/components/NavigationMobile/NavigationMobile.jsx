@@ -1,4 +1,5 @@
 import "../Navigation/Navigation.css";
+import MenuButton from "../MenuButton/MenuButton";
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
 import { list } from "../../utils/consts";
@@ -13,13 +14,7 @@ const NavigationMobile = () => {
     <>
       <nav className="nav__mobile">
         <div>
-          <motion.button
-            type="button"
-            className="nav__mobile-bt"
-            onClick={handleClick}
-          >
-            X
-          </motion.button>
+          <MenuButton handleClick={handleClick} isOpen={isOpen} />
           <AnimatePresence>
             {isOpen && (
               <motion.div

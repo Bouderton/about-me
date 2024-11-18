@@ -3,7 +3,6 @@ import NavigationMobile from "../NavigationMobile/NavigationMobile";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
 import { motion } from "motion/react";
-import { useState } from "react";
 
 const Navigation = () => {
   return (

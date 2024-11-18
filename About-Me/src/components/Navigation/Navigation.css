@@ -60,11 +60,17 @@
   visibility: hidden;
 }
 
-.nav__mobile-bt {
+.nav__mobile-menu-button {
   position: absolute;
   top: 10px;
   right: 10px;
+  background: #20272d;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
   z-index: 2;
+  padding: 0;
 }
 
 .nav__mobile-menu {
