@@ -211,6 +211,14 @@
 
 @media screen and (max-width: 400px) {
   .skills {
-    gap: 50px;
+    gap: 25px;
+  }
+
+  .skills__title {
+    font-size: 18px;
+  }
+
+  .skills__text {
+    font-size: 12px;
   }
 }

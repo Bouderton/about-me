@@ -21,7 +21,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  /* margin: 0 0 50px; */
 }
 
 .projects__title {
@@ -63,5 +62,9 @@
 @media screen and (max-width: 400px) {
   .projects {
     gap: 50px;
+  }
+
+  .projects__title {
+    font-size: 18px;
   }
 }

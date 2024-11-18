@@ -65,19 +65,45 @@ const Skills = ({ skillsRef }) => {
             </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 75 }}
-            whileInView={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ delay: 1, duration: 0.75 }}
-            viewport={{ once: true }}
-            className="skills__text-container"
-          >
-            <p className="skills__text">
+          <div className="skills__text-container">
+            <motion.p
+              initial={{ opacity: 0, scale: 0.95, y: 75 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ delay: 1, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="skills__text"
+            >
               I specialize in creating responsive and intuitive web applications
-              fit for all devices with modern technology. Insert more nice words
-              to get me hired....
-            </p>
-          </motion.div>
+              fit for all devices with modern technology. As much as I love tech
+              and engineering, my down time is spent playing basketball or
+              exercising, reading books, or indulging in art, music, and movies.
+            </motion.p>
+            <motion.p
+              style={{ marginTop: "25px" }}
+              initial={{ opacity: 0, scale: 0.95, y: 75 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ delay: 1.25, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="skills__text"
+            >
+              I've developed a keen ability to continuously discover new things
+              to learn, and expand my knowledge of the principles and laws our
+              physical world follows. Recently, I've become fascinated by the
+              laws of physics/astrophysics and other types of engineering.
+            </motion.p>
+            <motion.p
+              style={{ marginTop: "25px" }}
+              initial={{ opacity: 0, scale: 0.95, y: 75 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ delay: 1.5, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="skills__text"
+            >
+              In the long term I see myself becoming the best engineer I can
+              possibly be. Not just in software, but in multiple fields such as
+              Robotics, Mechanical, or Mechatronics.
+            </motion.p>
+          </div>
         </motion.div>
       </section>
     </>

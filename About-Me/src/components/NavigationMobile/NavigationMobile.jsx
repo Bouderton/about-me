@@ -1,8 +1,8 @@
 import "../Navigation/Navigation.css";
+import Logo from "../Logo/Logo";
 import MenuButton from "../MenuButton/MenuButton";
 import { motion, AnimatePresence } from "motion/react";
 import { list } from "../../utils/consts";
-import Logo from "../Logo/Logo";
 
 const NavigationMobile = ({
   homeRef,

@@ -63,24 +63,25 @@ export const techSkillsList = [
   "JavScript",
   "HTML",
   "CSS",
-  "Express",
   "Git",
   "Node",
+  "Express",
   "MongoDB",
   "JSON",
   "GCP",
   "Python",
+  "Motion",
 ];
 export const hobbyList = [
+  "Learning",
   "Basketball",
+  "Music",
   "Health",
   "Fitness",
   "Blender",
   "Maya",
   "Photoshop",
-  "Music",
   "Cinema",
-  "Learning",
   "Reading",
 ];
 
