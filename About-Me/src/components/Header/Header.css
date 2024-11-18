@@ -50,7 +50,7 @@
 }
 
 .header__subtitle {
-  font-size: 18px;
+  font-size: 20px;
   max-width: 400px;
   line-height: 1.25;
   text-align: center;
@@ -86,7 +86,7 @@
   }
 
   .header__text-container {
-    gap: 8px;
+    gap: 5px;
   }
 
   .header__title {
@@ -95,17 +95,12 @@
 
   .header__subtitle {
     font-size: 12px;
-    width: 50%;
   }
 }
 
 @media screen and (max-width: 450px) {
   .header {
     padding: 100px 25px;
-  }
-
-  .header__text-container {
-    gap: 5px;
   }
 
   .header__title {

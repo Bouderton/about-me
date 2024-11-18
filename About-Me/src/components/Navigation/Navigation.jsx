@@ -100,7 +100,7 @@ const Navigation = () => {
               type="text"
               className="nav__button"
             >
-              Resume
+              Contact
             </motion.button>
           </div>
           <div className="nav__icons-container">

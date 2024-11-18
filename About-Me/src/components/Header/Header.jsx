@@ -53,7 +53,7 @@ const Header = () => {
               viewport={{ once: true }}
               className="header__subtitle"
             >
-              I am a Full-Stack Software Engineer looking for new opportunities.
+              Full-Stack Software Engineer
             </motion.p>
           </div>
         </div>

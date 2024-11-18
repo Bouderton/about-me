@@ -145,7 +145,7 @@ const NavigationMobile = () => {
                     type="button"
                     className="nav__mobile-button"
                   >
-                    Resume
+                    Contact
                   </motion.button>
                 </motion.div>
               </motion.div>
