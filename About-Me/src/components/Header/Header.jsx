@@ -8,8 +8,11 @@ const Header = () => {
     <>
       <Navigation />
       <header className="header">
+        <div className="header__logo">
+          <Logo />
+        </div>
         <div className="header__content">
-          <div className="header__anim" style={{ margin: "0 auto 50px" }}>
+          <div className="header__anim">
             <motion.h1
               initial={{ rotate: "0deg", scale: 0, y: 0 }}
               animate={{
@@ -33,27 +36,26 @@ const Header = () => {
               COOL ANIMATION COMING SOON
             </motion.h1>
           </div>
-          <motion.h2
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-            viewport={{ once: true }}
-            className="header__title"
-          >
-            Ryan Khazal
-          </motion.h2>
-          <div className="header__logo">
-            <Logo />
+          <div className="header__text-container">
+            <motion.h2
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.5 }}
+              viewport={{ once: true }}
+              className="header__title"
+            >
+              Ryan Khazal
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 1, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="header__subtitle"
+            >
+              I am a Full-Stack Software Engineer looking for new opportunities.
+            </motion.p>
           </div>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 0.75 }}
-            viewport={{ once: true }}
-            className="header__text"
-          >
-            I am a Full-Stack Software Engineer looking for new opportunities.
-          </motion.p>
         </div>
       </header>
     </>
