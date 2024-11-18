@@ -34,8 +34,8 @@ export const projectList = {
     opacity: 1,
     transition: {
       when: "beforeChildren",
-      staggerChildren: 0.45,
-      delay: 0.75,
+      staggerChildren: 0.75,
+      delay: 1.25,
     },
   },
   hidden: {
