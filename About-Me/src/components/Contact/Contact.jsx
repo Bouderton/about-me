@@ -2,9 +2,9 @@ import "./Contact.css";
 import Break from "../Break/Break";
 import { motion } from "motion/react";
 
-const Contact = () => {
+const Contact = ({ contactRef }) => {
   return (
-    <section className="contact">
+    <section className="contact" ref={contactRef}>
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 100 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}

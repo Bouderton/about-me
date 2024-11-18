@@ -117,7 +117,7 @@ const NavigationMobile = () => {
                     type="button"
                     className="nav__mobile-button"
                   >
-                    Projects
+                    Skills
                   </motion.button>
                   <motion.button
                     initial={{ y: -50, opacity: 0 }}
@@ -126,6 +126,34 @@ const NavigationMobile = () => {
                       opacity: 1,
                       transition: {
                         delay: 1.25,
+                        type: "spring",
+                        bounce: 0.2,
+                        duration: 0.25,
+                      },
+                    }}
+                    exit={{ opactiy: 0, scale: 0 }}
+                    whileHover={{
+                      backgroundColor: "#3a85ff",
+                      borderRadius: "20px",
+                      scale: 1.2,
+                      transition: {
+                        duration: 0.5,
+                        type: "spring",
+                        bounce: 0.4,
+                      },
+                    }}
+                    type="button"
+                    className="nav__mobile-button"
+                  >
+                    Projects
+                  </motion.button>
+                  <motion.button
+                    initial={{ y: -50, opacity: 0 }}
+                    animate={{
+                      y: 0,
+                      opacity: 1,
+                      transition: {
+                        delay: 1.5,
                         type: "spring",
                         bounce: 0.2,
                         duration: 0.25,

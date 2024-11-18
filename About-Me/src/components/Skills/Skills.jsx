@@ -4,10 +4,10 @@ import Break from "../Break/Break";
 import { motion } from "motion/react";
 import { list, item, techSkillsList, hobbyList } from "../../utils/consts";
 
-const Skills = () => {
+const Skills = ({ skillsRef }) => {
   return (
     <>
-      <section className="skills">
+      <section className="skills" ref={skillsRef}>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}

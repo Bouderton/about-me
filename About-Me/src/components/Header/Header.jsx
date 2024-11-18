@@ -4,11 +4,16 @@ import { motion } from "motion/react";
 import Logo from "../Logo/Logo";
 import { useRef } from "react";
 
-const Header = () => {
-  const homeRef = useRef();
+const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
   return (
     <>
-      <Navigation scrollRef={homeRef} />
+      <Navigation
+        aboutRef={aboutRef}
+        skillsRef={skillsRef}
+        projectsRef={projectsRef}
+        contactRef={contactRef}
+        homeRef={homeRef}
+      />
       <header className="header">
         <motion.div
           initial={{ backgroundColor: "transparent", borderRadius: "50%" }}

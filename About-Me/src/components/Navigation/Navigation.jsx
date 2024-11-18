@@ -5,36 +5,24 @@ import github from "../../images/github.svg";
 import { motion } from "motion/react";
 import { useRef } from "react";
 
-const Navigation = ({ scrollRef }) => {
+const Navigation = ({
+  homeRef,
+  aboutRef,
+  skillsRef,
+  projectsRef,
+  contactRef,
+}) => {
   return (
     <>
-      <nav className="nav" ref={scrollRef}>
+      <nav className="nav" ref={homeRef}>
         <div className="nav__content">
           <div className="nav__buttons-container">
             <motion.button
-              initial={{ opacity: 0, scale: 1, x: -50 }}
-              animate={{
-                x: 0,
-                opacity: 1,
-                transition: { delay: 1.75, duration: 0.5 },
+              onClick={() => {
+                aboutRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
               }}
-              whileHover={{
-                backgroundColor: "#3a85ff",
-                borderRadius: "8px",
-                scale: 1.2,
-                padding: "5px",
-                transition: {
-                  duration: 0.5,
-                  type: "spring",
-                  bounce: 0.4,
-                },
-              }}
-              type="text"
-              className="nav__button"
-            >
-              Home
-            </motion.button>
-            <motion.button
               initial={{ scale: 1, opacity: 0, x: -50 }}
               animate={{
                 x: 0,
@@ -58,6 +46,39 @@ const Navigation = ({ scrollRef }) => {
               About
             </motion.button>
             <motion.button
+              onClick={() => {
+                skillsRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+              initial={{ scale: 1, opacity: 0, x: -50 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { delay: 2.25, duration: 0.5 },
+              }}
+              whileHover={{
+                backgroundColor: "#3a85ff",
+                borderRadius: "8px",
+                scale: 1.2,
+                padding: "5px",
+                transition: {
+                  duration: 0.5,
+                  type: "spring",
+                  bounce: 0.4,
+                },
+              }}
+              type="text"
+              className="nav__button"
+            >
+              Skills
+            </motion.button>
+            <motion.button
+              onClick={() => {
+                projectsRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
               initial={{ scale: 1, opacity: 0, x: -50 }}
               animate={{
                 x: 0,
@@ -81,6 +102,11 @@ const Navigation = ({ scrollRef }) => {
               Projects
             </motion.button>
             <motion.button
+              onClick={() => {
+                contactRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
               initial={{ scale: 1, opacity: 0, x: -50 }}
               animate={{
                 x: 0,

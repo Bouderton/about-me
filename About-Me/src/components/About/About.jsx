@@ -3,10 +3,10 @@ import me from "../../images/me.jpeg";
 import Break from "../Break/Break";
 import { motion } from "motion/react";
 
-const About = () => {
+const About = ({ aboutRef }) => {
   return (
     <>
-      <section className="about">
+      <section className="about" ref={aboutRef}>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
