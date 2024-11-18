@@ -5,6 +5,7 @@
   padding: 50px 50px;
   max-width: 1200px;
   margin: 0 auto;
+  gap: 50px;
 }
 
 .contact__info {
@@ -12,9 +13,8 @@
   border-radius: 15px;
   padding: 50px;
   max-width: 400px;
-  margin: 50px auto;
+  margin: 0 auto;
   text-align: center;
-  font-size: 20px;
 }
 
 .contact__title-container {
@@ -31,6 +31,7 @@
 
 .contact__text {
   margin: 0;
+  font-size: 20px;
 }
 
 .contact__icons-container {
@@ -42,4 +43,42 @@
 .contact__icon {
   width: 96px;
   height: 96px;
+}
+
+@media screen and (max-width: 975px) {
+  .contact__title-container {
+    gap: 10px;
+  }
+
+  .contact__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .contact {
+    padding: 25px;
+  }
+
+  .contact__info {
+    padding: 25px;
+  }
+
+  .contact__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    gap: 50px;
+  }
+
+  .contact__title {
+    font-size: 25px;
+  }
+
+  .contact__title-container {
+    gap: 8px;
+  }
 }
