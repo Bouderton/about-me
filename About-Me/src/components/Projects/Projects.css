@@ -59,3 +59,9 @@
     gap: 8px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .projects {
+    gap: 50px;
+  }
+}

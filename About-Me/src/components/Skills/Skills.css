@@ -208,3 +208,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .skills {
+    gap: 50px;
+  }
+}
