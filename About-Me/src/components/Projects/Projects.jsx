@@ -8,17 +8,17 @@ import { projectsList, projectItem, projectList } from "../../utils/consts";
 const Projects = () => {
   return (
     <>
-      <section className="projects">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95, y: 100 }}
-          whileInView={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          viewport={{ once: true }}
-          className="projects__title-container"
-        >
+      <motion.section
+        initial={{ opacity: 0, scale: 0.95, y: 100 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        viewport={{ once: true }}
+        className="projects"
+      >
+        <div className="projects__title-container">
           <Break direction="right" />
           <h2 className="projects__title">What I've Done</h2>
-        </motion.div>
+        </div>
         <motion.ul
           variants={projectList}
           initial="hidden"
@@ -43,7 +43,7 @@ const Projects = () => {
           })}
           {/* NewsExplorer Backend */}
         </motion.ul>
-      </section>
+      </motion.section>
     </>
   );
 };

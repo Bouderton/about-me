@@ -7,19 +7,25 @@ import { list, item, techSkillsList, hobbyList } from "../../utils/consts";
 const Skills = () => {
   return (
     <>
-      <motion.section
-        className="skills"
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.75, duration: 0.5 }}
-        viewport={{ once: true }}
-      >
-        <div className="skills__title-container">
+      <section className="skills">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="skills__title-container"
+        >
           <Break direction="right" />
           <h2 className="skills__title">What I Do</h2>
           <Break direction="left" />
-        </div>
-        <div className="skills__content">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.75 }}
+          viewport={{ once: true }}
+          className="skills__content"
+        >
           <div className="skills__list-container">
             <h3 className="skills__tech-title">Tech I Use</h3>
             <motion.ul
@@ -63,7 +69,7 @@ const Skills = () => {
           <motion.div
             initial={{ opacity: 0, scale: 0.95, y: 75 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ delay: 0.75, duration: 0.3 }}
+            transition={{ delay: 1, duration: 0.75 }}
             viewport={{ once: true }}
             className="skills__text-container"
           >
@@ -73,8 +79,8 @@ const Skills = () => {
               to get me hired :3
             </p>
           </motion.div>
-        </div>
-      </motion.section>
+        </motion.div>
+      </section>
     </>
   );
 };

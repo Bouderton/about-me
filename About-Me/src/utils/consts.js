@@ -9,8 +9,8 @@ export const list = {
     opacity: 1,
     transition: {
       when: "beforeChildren",
-      staggerChildren: 0.2,
-      delay: 0.5,
+      staggerChildren: 0.25,
+      delay: 1.5,
     },
   },
   hidden: {
@@ -73,6 +73,8 @@ export const techSkillsList = [
 ];
 export const hobbyList = [
   "Basketball",
+  "Health",
+  "Fitness",
   "Blender",
   "Maya",
   "Photoshop",
