@@ -71,6 +71,7 @@
   height: 48px;
   z-index: 2;
   padding: 0;
+  cursor: pointer;
 }
 
 .nav__mobile-menu {
