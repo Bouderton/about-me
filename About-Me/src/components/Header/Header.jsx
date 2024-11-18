@@ -2,15 +2,28 @@ import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 import { motion } from "motion/react";
 import Logo from "../Logo/Logo";
+import { useRef } from "react";
 
 const Header = () => {
+  const homeRef = useRef();
   return (
     <>
-      <Navigation />
+      <Navigation scrollRef={homeRef} />
       <header className="header">
-        <div className="header__logo">
+        <motion.div
+          initial={{ backgroundColor: "transparent", borderRadius: "50%" }}
+          whileHover={{
+            backgroundColor: "#3a85ff",
+          }}
+          className="header__logo"
+          onClick={() => {
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
           <Logo />
-        </div>
+        </motion.div>
         <div className="header__content">
           <div className="header__anim">
             <motion.h1

@@ -22,6 +22,7 @@
 .nav__buttons-container {
   display: flex;
   flex-direction: row;
+  width: 400px;
   gap: 50px;
 }
 
@@ -30,7 +31,7 @@
   border: none;
   outline: none;
   color: #d8d9da;
-  font-size: 18px;
+  font-size: 16px;
   height: 30px;
   padding: 0;
   cursor: pointer;
@@ -41,7 +42,6 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  /* max-width: 100px; */
 }
 
 .nav__icon {

@@ -8,6 +8,15 @@ const Logo = () => {
       viewBox="0 0 240 240"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      initial={{ scale: 1 }}
+      whileHover={{
+        scale: 1.15,
+        transition: {
+          duration: 0.25,
+          type: "spring",
+          bounce: 0.25,
+        },
+      }}
     >
       <motion.rect
         x="2.5"
@@ -17,7 +26,7 @@ const Logo = () => {
         rx="117.5"
         stroke="white"
         strokeWidth="5"
-        initial={{ opacity: 0, pathLength: 0 }}
+        initial={{ opacity: 0, pathLength: 0, scale: 1 }}
         animate={{ opacity: 1, pathLength: 1 }}
         transition={{ delay: 1, duration: 0.75 }}
       />

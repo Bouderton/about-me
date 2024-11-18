@@ -3,11 +3,12 @@ import NavigationMobile from "../NavigationMobile/NavigationMobile";
 import linkedin from "../../images/linkedin-small.svg";
 import github from "../../images/github.svg";
 import { motion } from "motion/react";
+import { useRef } from "react";
 
-const Navigation = () => {
+const Navigation = ({ scrollRef }) => {
   return (
     <>
-      <nav className="nav">
+      <nav className="nav" ref={scrollRef}>
         <div className="nav__content">
           <div className="nav__buttons-container">
             <motion.button
