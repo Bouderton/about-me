@@ -1,5 +1,5 @@
 import "./GeoNode.css";
-import geonode from "../../images/geo-nodes5.mp4";
+import geonode from "../../images/geo-nodes6.mp4";
 
 const GeoNode = () => {
   return (
