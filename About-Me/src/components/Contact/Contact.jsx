@@ -24,7 +24,8 @@ const Contact = ({ contactRef }) => {
         className="contact__info"
       >
         <p className="contact__text">
-          Feel free to shoot me an email at{" "}
+          All my information is on
+          {/* an email at{" "}
           <a
             href="mailto:rmkhazal@gmail.com"
             rel="noopener noreferer"
@@ -37,7 +38,7 @@ const Contact = ({ contactRef }) => {
           >
             rmkhazal@gmail.com
           </a>{" "}
-          if you want to connect. You can also find me on{" "}
+          if you want to connect. You can also find me on */}{" "}
           <a
             href="https://www.linkedin.com/in/ryankhazal/"
             rel="noopener noreferer"
@@ -48,9 +49,10 @@ const Contact = ({ contactRef }) => {
               fontWeight: 700,
             }}
           >
-            LinkedIn
+            LinkedIn.
           </a>{" "}
-          if that's more your speed.
+          Feel free to connect with me through there. I'm always open to
+          building new relationships
         </p>
       </motion.div>
     </section>
