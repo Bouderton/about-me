@@ -47,8 +47,9 @@
 
 .project__text {
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
+  font-family: "Raleway-Medium", Arial;
 }
 
 .project__description-github {

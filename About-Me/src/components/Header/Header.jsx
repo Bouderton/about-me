@@ -44,7 +44,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
                 margin: "0",
                 textAlign: "center",
                 mixBlendMode: "lighten",
-                filter: "brightness(0.8) contrast(1.2)",
+                filter: "brightness(0.7) contrast(1.2)",
               }}
             >
               <GeoNode />
@@ -52,8 +52,8 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
           </div>
           <div className="header__text-container">
             <motion.h2
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.75 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
               viewport={{ once: true }}
               className="header__title"
@@ -63,7 +63,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 1, duration: 0.75 }}
+              transition={{ delay: 1.25, duration: 1 }}
               viewport={{ once: true }}
               className="header__subtitle"
             >

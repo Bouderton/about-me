@@ -79,7 +79,7 @@ const Skills = ({ skillsRef }) => {
               exercising, reading books, or indulging in art, music, and movies.
             </motion.p>
             <motion.p
-              style={{ marginTop: "25px" }}
+              // style={{ marginTop: "25px" }}
               initial={{ opacity: 0, scale: 0.95, y: 75 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 1.25, duration: 0.75 }}
@@ -92,7 +92,7 @@ const Skills = ({ skillsRef }) => {
               laws of physics/astrophysics and other types of engineering.
             </motion.p>
             <motion.p
-              style={{ marginTop: "25px" }}
+              // style={{ marginTop: "25px" }}
               initial={{ opacity: 0, scale: 0.95, y: 75 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 1.5, duration: 0.75 }}

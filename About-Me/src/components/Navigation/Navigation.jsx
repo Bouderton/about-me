@@ -36,7 +36,7 @@ const Navigation = ({
                 backgroundColor: "#3a85ff",
                 borderRadius: "8px",
                 scale: 1.2,
-                padding: "5px",
+                padding: "3px",
                 transition: {
                   duration: 0.5,
                   type: "spring",
@@ -68,7 +68,7 @@ const Navigation = ({
                 backgroundColor: "#3a85ff",
                 borderRadius: "8px",
                 scale: 1.2,
-                padding: "5px",
+                padding: "3px",
                 transition: {
                   duration: 0.5,
                   type: "spring",
@@ -100,7 +100,7 @@ const Navigation = ({
                 backgroundColor: "#3a85ff",
                 borderRadius: "8px",
                 scale: 1.2,
-                padding: "5px",
+                padding: "3px",
                 transition: {
                   duration: 0.5,
                   type: "spring",
@@ -132,7 +132,7 @@ const Navigation = ({
                 backgroundColor: "#3a85ff",
                 borderRadius: "8px",
                 scale: 1.2,
-                padding: "5px",
+                padding: "3px",
                 transition: {
                   duration: 0.5,
                   type: "spring",

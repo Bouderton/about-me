@@ -27,11 +27,13 @@
   font-size: 40px;
   margin: 0 auto;
   flex-shrink: 0;
+  font-family: "UbuntuSans-Bold", Arial;
 }
 
 .contact__text {
   margin: 0;
   font-size: 20px;
+  font-family: "Raleway-Light", Arial;
 }
 
 .contact__icons-container {

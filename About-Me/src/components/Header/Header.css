@@ -7,6 +7,7 @@
   letter-spacing: 2px;
   max-width: 1200px;
   padding: 200px 75px;
+  font-family: Arial;
 }
 
 .header__content {
@@ -28,7 +29,7 @@
 }
 
 .header__anim {
-  margin: 0 auto 150px;
+  margin: 0 auto 100px;
 }
 
 .header__github {

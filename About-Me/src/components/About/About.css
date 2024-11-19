@@ -24,6 +24,7 @@
   text-align: left;
   margin: 0;
   flex-shrink: 0;
+  font-family: "UbuntuSans-Bold";
 }
 
 .about__img {
@@ -37,16 +38,19 @@
 .about__text-container {
   display: flex;
   flex-direction: column;
+  align-content: center;
   gap: 15px;
   max-width: 700px;
   margin: 0 25px 0 0;
 }
 
 .about__text {
-  line-height: 1.25;
-  letter-spacing: 2px;
-  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  font-size: 19px;
   margin: 0;
+  font-family: "Raleway-Thin", Arial;
 }
 
 @media screen and (max-width: 900px) {

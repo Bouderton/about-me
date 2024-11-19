@@ -25,6 +25,7 @@
 
 .projects__title {
   font-size: 40px;
+  font-family: "UbuntuSans-Bold", Arial;
   margin: 0;
   text-align: center;
   flex-shrink: 0;

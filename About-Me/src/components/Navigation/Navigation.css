@@ -27,13 +27,15 @@
 }
 
 .nav__button {
+  font-family: "Raleway-Light", Arial;
+  letter-spacing: 1.5px;
   background: transparent;
   border: none;
   outline: none;
   color: #d8d9da;
-  font-size: 16px;
+  font-size: 20px;
   height: 30px;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
