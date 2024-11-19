@@ -3,10 +3,10 @@ import me from "../../images/me.jpeg";
 import Break from "../Break/Break";
 import { motion } from "motion/react";
 
-const About = () => {
+const About = ({ aboutRef }) => {
   return (
     <>
-      <section className="about">
+      <section className="about" ref={aboutRef}>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -17,6 +17,7 @@ const About = () => {
           <motion.h2
             initial={{ scale: 0.9 }}
             whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
             className="about__title"
           >
             About Me
@@ -24,18 +25,24 @@ const About = () => {
           <Break direction="left" />
         </motion.div>
         <div className="about__content">
-          <motion.div
-            initial={{ opacity: 0, y: 75 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.25, duration: 0.75 }}
-            viewport={{ once: true }}
-            className="about__text-container"
-          >
-            <p className="about__text">
+          <div className="about__text-container">
+            <motion.p
+              initial={{ opacity: 0, y: 75 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.25, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="about__text"
+            >
               I graduated from one of the top Software Engineering Boot Camps in
               the U.S, with over 1,200 contributions on GitHub in the last year.
-            </p>
-            <p className="about__text">
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 75 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.5, duration: 0.75 }}
+              viewport={{ once: true }}
+              className="about__text"
+            >
               As a former Student Athlete with a Regional and State
               Championship; Resilience, Teamwork, Communication, and Curiosity
               are customary in my love for innovative technology. I am confident
@@ -44,12 +51,12 @@ const About = () => {
               will allow me to thrive in a working environment that shares my
               drive to change the world through health and technology, and
               explore the unknowns of the expanding universe.
-            </p>
-          </motion.div>
+            </motion.p>
+          </div>
           <motion.img
             initial={{ opacity: 0, y: 75, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ delay: 1.75, duration: 0.75 }}
+            transition={{ delay: 1.5, duration: 0.75 }}
             viewport={{ once: true }}
             className="about__img"
             src={me}

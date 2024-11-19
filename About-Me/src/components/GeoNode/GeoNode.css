@@ -1,0 +1,35 @@
+/* this is the most scuffed cropping I came up with */
+.geonode__container {
+  display: block;
+  width: 600px;
+  height: auto;
+  position: relative;
+}
+
+.geonode {
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+
+@media screen and (max-width: 775px) {
+  .geonode__container {
+    width: 400px;
+  }
+
+  .geonode {
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .geonode__container {
+    width: 300px;
+  }
+
+  .geonode {
+    top: -px;
+  }
+}

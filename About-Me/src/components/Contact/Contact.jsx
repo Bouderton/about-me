@@ -2,9 +2,9 @@ import "./Contact.css";
 import Break from "../Break/Break";
 import { motion } from "motion/react";
 
-const Contact = () => {
+const Contact = ({ contactRef }) => {
   return (
-    <section className="contact">
+    <section className="contact" ref={contactRef}>
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 100 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -24,7 +24,8 @@ const Contact = () => {
         className="contact__info"
       >
         <p className="contact__text">
-          Feel free to shoot me an email at{" "}
+          All my information is on
+          {/* an email at{" "}
           <a
             href="mailto:rmkhazal@gmail.com"
             rel="noopener noreferer"
@@ -37,7 +38,7 @@ const Contact = () => {
           >
             rmkhazal@gmail.com
           </a>{" "}
-          if you want to connect. You can also find me on{" "}
+          if you want to connect. You can also find me on */}{" "}
           <a
             href="https://www.linkedin.com/in/ryankhazal/"
             rel="noopener noreferer"
@@ -48,9 +49,10 @@ const Contact = () => {
               fontWeight: 700,
             }}
           >
-            LinkedIn
+            LinkedIn.
           </a>{" "}
-          if that's more your speed.
+          Feel free to connect with me through there. I'm always open to
+          building new relationships
         </p>
       </motion.div>
     </section>

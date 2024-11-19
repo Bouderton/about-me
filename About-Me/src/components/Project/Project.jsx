@@ -30,7 +30,7 @@ const Project = ({ link, img, title, live, text, repo }) => {
               />
             </a>
           ) : (
-            <img src={no_image} style={{ width: "190px", margin: "0 auto" }} />
+            <img className="project__no-image" src={no_image} />
           )}
           <div className="project__description">
             <p className="project__text">{text}</p>

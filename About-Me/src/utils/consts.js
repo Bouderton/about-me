@@ -63,24 +63,25 @@ export const techSkillsList = [
   "JavScript",
   "HTML",
   "CSS",
-  "Express",
   "Git",
   "Node",
+  "Express",
   "MongoDB",
   "JSON",
   "GCP",
   "Python",
+  "Motion",
 ];
 export const hobbyList = [
+  "Learning",
   "Basketball",
+  "Music",
   "Health",
   "Fitness",
   "Blender",
   "Maya",
   "Photoshop",
-  "Music",
   "Cinema",
-  "Learning",
   "Reading",
 ];
 
@@ -107,7 +108,7 @@ export const projectsList = [
     live: true,
     img: aroundtheus,
     link: "https://bouderton.github.io/se_project_aroundtheus/",
-    text: "This Instagram look-alike is a Front-End social media pageon the Worldwide Explorer - Jacques Cousteau.",
+    text: "This Instagram look-alike is a Front-End social media page on the Worldwide Explorer, Jacques Cousteau. Browse beautiful locations and add your favorites.",
   },
   {
     title: "Triple Peaks",
@@ -115,7 +116,7 @@ export const projectsList = [
     live: true,
     link: "https://bouderton.github.io/se_project_coffeeshop/",
     repo: "https://github.com/Bouderton/se_project_coffeeshop?tab=readme-ov-file",
-    text: "This is a Front-End application that represents a landing page for a local coffee shop - Triple Peaks.",
+    text: "This is a Front-End application that represents a landing page for a local coffee shop Triple Peaks. You can see their menu and see their coffee recommendations.",
   },
   {
     title: "Slopopedia",

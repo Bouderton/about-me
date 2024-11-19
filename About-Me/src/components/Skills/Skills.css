@@ -22,15 +22,24 @@
 
 .skills__title {
   font-size: 40px;
+  font-family: "UbuntuSans-Bold", Arial;
   margin: 0;
   text-align: center;
   flex-shrink: 0;
 }
 
+.skills__lists-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 35px;
+}
+
 .skills__list-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
+  max-width: 400px;
 }
 
 .skills__list {
@@ -49,10 +58,14 @@
   background: #3a85ff;
   border-radius: 12px;
   padding: 12px;
+  align-content: center;
 }
 
 .skills__text-container {
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .skills__tech-title {
@@ -62,6 +75,157 @@
 
 .skills__text {
   margin: 0;
-  font-size: 20px;
+  font-size: 19px;
   text-align: right;
+  font-family: "Raleway-Thin", Arial;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/* HOBBY CSS */
+
+.hobby__list-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  max-width: 400px;
+}
+
+.hobby__list-title {
+  font-size: 25px;
+  margin: 0 0 20px;
+}
+
+.hobby__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 10px;
+  padding: 0;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 975px) {
+  .skills__title {
+    font-size: 30px;
+  }
+
+  .skills__title-container {
+    gap: 10px;
+  }
+
+  .skills__content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .skills__text {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .skills__text-container {
+    margin: 0 auto;
+  }
+
+  .skills__tech-title {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto 20px;
+  }
+
+  .skills__list-container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .skills__list {
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .hobby__list-container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .hobby__list-title {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .hobby__list {
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .skills__item {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .skills {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills {
+    gap: 100px;
+  }
+
+  .skills__content {
+    gap: 75px;
+  }
+
+  .skills__title {
+    font-size: 25px;
+  }
+  .skills__title-container {
+    gap: 8px;
+  }
+
+  .skills__item {
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    height: 20px;
+  }
+
+  .skills__tech-title {
+    font-size: 18px;
+    margin: 0 auto 15px;
+  }
+
+  .skills__list {
+    gap: 5px;
+  }
+
+  .hobby__list {
+    gap: 5px;
+  }
+
+  .hobby__list-title {
+    margin: 0 auto 15px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skills {
+    gap: 25px;
+  }
+
+  .skills__title {
+    font-size: 18px;
+  }
+
+  .skills__text {
+    font-size: 12px;
+  }
 }
