@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .about {
     gap: 25px;
   }
