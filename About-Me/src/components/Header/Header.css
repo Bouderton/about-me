@@ -28,7 +28,7 @@
 }
 
 .header__anim {
-  margin: 0 auto 50px;
+  margin: 0 auto 150px;
 }
 
 .header__github {
@@ -79,7 +79,6 @@
 
   .header__subtitle {
     font-size: 14px;
-    width: 75%;
   }
 
   .header__nav-logo {
@@ -111,12 +110,15 @@
     padding: 100px 25px;
   }
 
+  .header__anim {
+    margin: 0 auto 40px;
+  }
+
   .header__title {
     font-size: 35px;
   }
 
   .header__subtitle {
     font-size: 10px;
-    width: 70%;
   }
 }

@@ -3,6 +3,7 @@ import Navigation from "../Navigation/Navigation";
 import { motion } from "motion/react";
 import { useState } from "react";
 import Logo from "../Logo/Logo";
+import GeoNode from "../GeoNode/GeoNode";
 
 const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,19 +35,20 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
         </div>
         <div className="header__content">
           <div className="header__anim">
-            <motion.h1
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1.2 }}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 2.25 }}
               style={{
                 fontSize: "40px",
-                width: "250px",
                 margin: "0",
                 textAlign: "center",
+                mixBlendMode: "lighten",
+                filter: "brightness(0.8) contrast(1.2)",
               }}
             >
-              COOL ANIMATION COMING SOON
-            </motion.h1>
+              <GeoNode />
+            </motion.div>
           </div>
           <div className="header__text-container">
             <motion.h2
