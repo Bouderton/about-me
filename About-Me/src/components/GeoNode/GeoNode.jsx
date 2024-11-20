@@ -5,7 +5,14 @@ const GeoNode = () => {
   return (
     <>
       <div className="geonode__container">
-        <video className="geonode" autoPlay loop muted>
+        <video
+          className="geonode"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="none"
+        >
           <source src={geonode}></source>
         </video>
       </div>

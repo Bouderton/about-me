@@ -26,7 +26,9 @@ const NavigationMobile = ({
         >
           <Logo />
         </div>
-        <MenuButton handleClick={handleClick} isOpen={isOpen} />
+        <div onClick={handleClick}>
+          <MenuButton handleClick={handleClick} isOpen={isOpen} />
+        </div>
         <AnimatePresence>
           {isOpen && (
             <motion.div

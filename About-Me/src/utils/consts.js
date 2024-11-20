@@ -81,6 +81,7 @@ export const hobbyList = [
   "Blender",
   "Maya",
   "Photoshop",
+  "Figma",
   "Cinema",
   "Reading",
 ];

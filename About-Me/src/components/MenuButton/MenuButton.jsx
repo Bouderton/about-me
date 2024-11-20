@@ -48,7 +48,7 @@ const MenuButton = ({ handleClick, isOpen }) => {
           initial={isOpen ? { rotate: 0, y: 0 } : { opacity: 0, scaleX: 0 }}
           animate={
             isOpen
-              ? { rotate: "45deg", y: -27, x: 11 }
+              ? { rotate: "45deg", y: -27 }
               : {
                   scaleX: 1,
                   opacity: 1,
@@ -57,18 +57,19 @@ const MenuButton = ({ handleClick, isOpen }) => {
           }
           style={{
             y: -34,
-            x: 12,
+            x: 11,
             width: "26px",
             outline: "1px solid #fbfbfc",
             position: "fixed",
             transformOrigin: "50%",
+            margin: 0,
           }}
         />
         <motion.div
           initial={isOpen ? { rotate: 0, y: 0 } : { opacity: 0, scaleX: 0 }}
           animate={
             isOpen
-              ? { rotate: "-45deg", y: -27, x: 11 }
+              ? { rotate: "-45deg", y: -27 }
               : {
                   scaleX: 1,
                   opacity: 1,
@@ -77,11 +78,12 @@ const MenuButton = ({ handleClick, isOpen }) => {
           }
           style={{
             y: -20,
-            x: 12,
+            x: 11,
             width: "26px",
             outline: "1px solid #fbfbfc",
             position: "fixed",
             transformOrigin: "50%",
+            margin: 0,
           }}
         />
       </motion.button>

@@ -46,7 +46,7 @@ const Skills = ({ skillsRef }) => {
               </motion.ul>
             </div>
             <div className="hobby__list-container">
-              <h3 className="hobby__list-title">Other Stuff I Enjoy</h3>
+              <h3 className="hobby__list-title">Other Things I Enjoy</h3>
               <motion.ul
                 className="hobby__list"
                 variants={list}
@@ -100,8 +100,8 @@ const Skills = ({ skillsRef }) => {
               className="skills__text"
             >
               In the long term I see myself becoming the best engineer I can
-              possibly be. Not just in software, but in multiple fields such as
-              Robotics, Mechanical, or Mechatronics.
+              possibly be. Creating and discovering new things in all aspects of
+              engineering.
             </motion.p>
           </div>
         </motion.div>
