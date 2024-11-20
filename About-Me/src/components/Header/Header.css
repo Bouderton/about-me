@@ -89,9 +89,13 @@
 }
 
 @media screen and (max-width: 500px) {
-  .header__anim {
-    margin: 50px auto 100px;
+  .header {
+    padding: 200px 25px;
   }
+
+  /* .header__anim {
+    margin: 50px auto 100px;
+  } */
 
   .header__text-container {
     gap: 5px;
@@ -108,7 +112,7 @@
 
 @media screen and (max-width: 450px) {
   .header {
-    padding: 200px 25px;
+    padding: 250px 25px;
   }
 
   .header__anim {
