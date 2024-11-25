@@ -71,6 +71,7 @@ export const techSkillsList = [
   "GCP",
   "Python",
   "Motion",
+  "Figma",
 ];
 export const hobbyList = [
   "Learning",
@@ -81,7 +82,6 @@ export const hobbyList = [
   "Blender",
   "Maya",
   "Photoshop",
-  "Figma",
   "Cinema",
   "Reading",
 ];
