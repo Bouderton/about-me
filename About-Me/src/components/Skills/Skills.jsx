@@ -79,7 +79,6 @@ const Skills = ({ skillsRef }) => {
               exercising, reading books, or indulging in art, music, and movies.
             </motion.p>
             <motion.p
-              // style={{ marginTop: "25px" }}
               initial={{ opacity: 0, scale: 0.95, y: 75 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 1.25, duration: 0.75 }}
@@ -87,12 +86,11 @@ const Skills = ({ skillsRef }) => {
               className="skills__text"
             >
               I've developed a keen ability to continuously discover new things
-              to learn, and expand my knowledge of the principles and laws our
-              physical world follows. Recently, I've become fascinated by the
-              laws of physics/astrophysics and other types of engineering.
+              to learn, and expand my knowledge of anything I find interesting
+              and inventive. Recently, I've become fascinated by the laws of
+              physics, aritificial intelligence, and mechanical engineering.
             </motion.p>
             <motion.p
-              // style={{ marginTop: "25px" }}
               initial={{ opacity: 0, scale: 0.95, y: 75 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 1.5, duration: 0.75 }}
@@ -101,7 +99,7 @@ const Skills = ({ skillsRef }) => {
             >
               In the long term I see myself becoming the best engineer I can
               possibly be. Creating and discovering new things in all aspects of
-              engineering.
+              engineering through continuous learning and discovery.
             </motion.p>
           </div>
         </motion.div>

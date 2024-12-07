@@ -34,7 +34,7 @@ const About = ({ aboutRef }) => {
               className="about__text"
             >
               I graduated from one of the top Software Engineering Boot Camps in
-              the U.S, with over 1,200 contributions on GitHub in the last year.
+              the U.S, with over 1,300 contributions on GitHub in the last year.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 75 }}
@@ -47,10 +47,10 @@ const About = ({ aboutRef }) => {
               Championship; Resilience, Teamwork, Communication, and Curiosity
               are customary in my love for innovative technology. I am confident
               that my background in athletics, paired with my passion for
-              health, fitness, and learning about how and why everything works,
-              will allow me to thrive in a working environment that shares my
-              drive to change the world through health and technology, and
-              explore the unknowns of the expanding universe.
+              health, wellness, and a burning passion for learning, will allow
+              me to thrive in a working environment that shares my drive to make
+              a lasting positive impact on the world through technology and
+              innovation.
             </motion.p>
           </div>
           <motion.img
