@@ -33,8 +33,8 @@ const About = ({ aboutRef }) => {
               viewport={{ once: true }}
               className="about__text"
             >
-              I graduated from one of the top Software Engineering Boot Camps in
-              the U.S, with over 1,300 contributions on GitHub in the last year.
+              I graduated from one of the top Software Engineering Programs in
+              the U.S, with over 1,500 contributions on GitHub through 2023.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 75 }}
@@ -45,15 +45,15 @@ const About = ({ aboutRef }) => {
             >
               As a former Student Athlete with a Regional and State
               Championship; Resilience, Teamwork, Communication, and Curiosity
-              are customary in my love for innovative technology. I am confident
-              that my background in athletics, paired with my passion for
-              health, wellness, and a burning passion for learning, will allow
-              me to thrive in a working environment that shares my drive to make
-              a lasting positive impact on the world through technology and
-              innovation.
+              are customary in my love for innovative technology, and the arts.
+              I am confident that my background in athletics, paired with my
+              passion for health, wellness, and a burning passion for learning,
+              will allow me to thrive in a working environment that shares my
+              drive to make a lasting positive impact on the world through
+              technology and innovation.
             </motion.p>
           </div>
-          <motion.img
+          {/* <motion.img
             initial={{ opacity: 0, y: 75, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 1.5, duration: 0.75 }}
@@ -61,7 +61,7 @@ const About = ({ aboutRef }) => {
             className="about__img"
             src={me}
             alt="Ryan Khazal Photo"
-          />
+          /> */}
         </div>
       </section>
     </>

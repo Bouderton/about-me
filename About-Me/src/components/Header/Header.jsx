@@ -67,7 +67,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
               viewport={{ once: true }}
               className="header__subtitle"
             >
-              Full-Stack Software Engineer
+              Athlete | Engineer | Artist
             </motion.p>
           </div>
         </div>
