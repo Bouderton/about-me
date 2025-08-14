@@ -11,6 +11,7 @@ const Navigation = ({
   skillsRef,
   projectsRef,
   contactRef,
+  nextRef,
   isOpen,
   handleClick,
 }) => {

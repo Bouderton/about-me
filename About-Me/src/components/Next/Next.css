@@ -20,3 +20,11 @@
   flex-shrink: 0;
   font-family: "UbuntuSans-Bold", Arial;
 }
+
+.next__info {
+  display: flex;
+  justify-content: center;
+}
+
+.next__info-text {
+}
