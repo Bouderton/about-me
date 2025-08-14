@@ -24,6 +24,7 @@ function App() {
         skillsRef={skillsRef}
         projectsRef={projectsRef}
         contactRef={contactRef}
+        nextRef={nextRef}
       />
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />

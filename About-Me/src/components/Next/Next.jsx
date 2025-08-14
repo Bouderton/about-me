@@ -3,14 +3,14 @@ import Break from "../Break/Break";
 import { motion } from "motion/react";
 
 const Next = ({ nextRef }) => {
-  <>
+  return (
     <section className="next" ref={nextRef}>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.25, duration: 0.5 }}
         viewport={{ once: true }}
-        className="next__container"
+        className="next__title-container"
       >
         <Break diretion="left" />
         <motion.h2
@@ -24,7 +24,7 @@ const Next = ({ nextRef }) => {
         <Break direction="right" />
       </motion.div>
     </section>
-  </>;
+  );
 };
 
 export default Next;
