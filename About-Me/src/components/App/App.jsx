@@ -3,7 +3,8 @@ import "./App.css";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
-import Projects from "../Projects/Projects";
+// import Projects from "../Projects/Projects";
+import Next from "../Next/Next";
 import Contact from "../Contact/Contact";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import Footer from "../Footer/Footer";
@@ -13,6 +14,7 @@ function App() {
   const skillsRef = useRef();
   const projectsRef = useRef();
   const contactRef = useRef();
+  const nextRef = useRef();
 
   return (
     <div className="page">
@@ -26,6 +28,7 @@ function App() {
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />
       {/* <Projects projectsRef={projectsRef} /> */}
+      <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />
       <ProgressBar />
       <Footer />
