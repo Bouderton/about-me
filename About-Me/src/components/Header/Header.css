@@ -53,12 +53,24 @@
   text-align: center;
 }
 
+.header__subtitle-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
 .header__subtitle {
   font-size: 25px;
   max-width: 400px;
   line-height: 1.25;
   text-align: center;
   margin: 0 auto;
+}
+
+.subtitle__break {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 775px) {

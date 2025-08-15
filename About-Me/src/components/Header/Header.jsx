@@ -58,17 +58,55 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
               viewport={{ once: true }}
               className="header__title"
             >
-              Ryan Khazal
+              Balls
             </motion.h2>
-            <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 1.25, duration: 1 }}
-              viewport={{ once: true }}
-              className="header__subtitle"
-            >
-              Athlete | Engineer | Artist
-            </motion.p>
+            <div className="header__subtitle-container">
+              <motion.p
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.5, duration: 0.75 }}
+                viewport={{ once: true }}
+                className="header__subtitle"
+              >
+                Athlete
+              </motion.p>
+              <motion.p
+                className="subtitle__break"
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1, duration: 0.5 }}
+                viewport={{ once: true }}
+              >
+                |
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.75, duration: 0.75 }}
+                viewport={{ once: true }}
+                className="header__subtitle"
+              >
+                Engineer
+              </motion.p>
+              <motion.p
+                className="subtitle__break"
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1, duration: 0.5 }}
+                viewport={{ once: true }}
+              >
+                |
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 2, duration: 0.75 }}
+                viewport={{ once: true }}
+                className="header__subtitle"
+              >
+                Artist
+              </motion.p>
+            </div>
           </div>
         </div>
       </header>

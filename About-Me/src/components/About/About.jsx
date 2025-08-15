@@ -53,7 +53,7 @@ const About = ({ aboutRef }) => {
               technology and innovation.
             </motion.p>
           </div>
-          <motion.img
+          {/* <motion.img
             initial={{ opacity: 0, y: 75, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 1.5, duration: 0.75 }}
@@ -61,7 +61,7 @@ const About = ({ aboutRef }) => {
             className="about__img"
             src={me}
             alt="Ryan Khazal Photo"
-          />
+          /> */}
         </div>
       </section>
     </>
