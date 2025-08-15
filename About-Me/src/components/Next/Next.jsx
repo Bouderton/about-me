@@ -12,15 +12,8 @@ const Next = ({ nextRef }) => {
         viewport={{ once: true }}
         className="next__title-container"
       >
-        <Break diretion="right" />
-        <motion.h2
-          initial={{ scale: 0.9 }}
-          whileInView={{ scale: 1 }}
-          viewport={{ once: true }}
-          className="next__title"
-        >
-          What's Next
-        </motion.h2>
+        <Break direction="right" />
+        <h2 className="next__title">What's Next</h2>
         <Break direction="left" />
       </motion.div>
       <motion.div
