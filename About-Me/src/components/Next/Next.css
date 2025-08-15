@@ -15,7 +15,7 @@
 }
 
 .next__title {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 auto;
   flex-shrink: 0;
   font-family: "UbuntuSans-Bold", Arial;
@@ -28,4 +28,55 @@
 
 .next__info-text {
   font-family: "Raleway-Thin", Arial;
+}
+
+@media screen and (max-width: 975px) {
+  .next__title {
+    font-size: 30px;
+  }
+
+  .next__title-container {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .next {
+    padding: 25px;
+  }
+
+  .next__info {
+    padding: 25px;
+  }
+
+  .next__info-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .next {
+    gap: 50px;
+  }
+
+  .next__title {
+    font-size: 25px;
+  }
+
+  .next__title-container {
+    gap: 8px;
+  }
+
+  .next__info-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .next {
+    gap: 30px;
+  }
+  .next__title {
+    font-size: 18px;
+  }
 }
