@@ -58,7 +58,7 @@ const Header = ({ homeRef, aboutRef, skillsRef, projectsRef, contactRef }) => {
               viewport={{ once: true }}
               className="header__title"
             >
-              Balls
+              Ryan Khazal
             </motion.h2>
             <div className="header__subtitle-container">
               <motion.p
