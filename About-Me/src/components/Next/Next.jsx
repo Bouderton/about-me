@@ -35,11 +35,16 @@ const Next = ({ nextRef }) => {
         <div className="next__unlv-container">
           {/* motion one letter at a time! */}
           <h2 className="next__unlv">UNLV</h2>
-          <p className="next__unlv-text">
-            I joined the class of 2029 at the University of Las Vegas, Nevada.
-            Currently exploring my major, but I have plans to stick to the
-            engineering field!
-          </p>
+          <div className="next__unlv-text-container">
+            <p className="next__unlv-text">
+              I joined the class of 2029 at the University of Las Vegas, Nevada.
+            </p>
+            <p className="next__unlv-text">
+              Currently exploring my major, but I have plans to stick to the
+              engineering field. So far I am loving my experience at UNLV, Go
+              Rebels!
+            </p>
+          </div>
         </div>
       </motion.div>
     </section>

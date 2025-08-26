@@ -37,3 +37,11 @@
   font-display: swap;
   src: url("./fonts/Raleway-Light.ttf") format("opentype");
 }
+
+@font-face {
+  font-family: "RobotoSlab";
+  font-weight: light;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/RobotoSlab-VariableFont_wght.ttf") format("openttype");
+}
