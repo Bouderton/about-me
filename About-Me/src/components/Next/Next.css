@@ -30,6 +30,27 @@
   font-family: "Raleway-Thin", Arial;
 }
 
+.next__unlv-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.next__unlv {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 150px;
+}
+
+.next__unlv-text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 @media screen and (max-width: 975px) {
   .next__title {
     font-size: 30px;
