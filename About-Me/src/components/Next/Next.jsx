@@ -16,6 +16,7 @@ const Next = ({ nextRef }) => {
         <h2 className="next__title">What's Next</h2>
         <Break direction="left" />
       </motion.div>
+      {/* old shit vvvv */}
       {/* <motion.div
         className="next__info"
         initial={{ opacity: 0, y: 100 }}
