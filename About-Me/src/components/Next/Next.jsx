@@ -35,7 +35,44 @@ const Next = ({ nextRef }) => {
       >
         <div className="next__unlv-container">
           {/* motion one letter at a time! */}
-          <h2 className="next__unlv">UNLV</h2>
+          <div className="next__unlv-title-container">
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ delay: 0.75, duration: 1 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="next__unlv"
+            >
+              U
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ delay: 1, duration: 1 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="next__unlv"
+            >
+              N
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ delay: 1.25, duration: 1 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="next__unlv"
+            >
+              L
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ delay: 1.5, duration: 1 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="next__unlv"
+            >
+              V
+            </motion.p>
+          </div>
           <div className="next__unlv-text-container">
             <p className="next__unlv-text">
               I joined the class of 2029 at the University of Las Vegas, Nevada.

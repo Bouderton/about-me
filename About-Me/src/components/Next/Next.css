@@ -42,9 +42,16 @@
   justify-content: center;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 150px;
+  font-size: 200px;
   font-family: "RobotoSlab";
-  letter-spacing: 8px;
+  /* letter-spacing: 8px; */
+}
+
+.next__unlv-title-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0 auto;
 }
 
 .next__unlv-text {
