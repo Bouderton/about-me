@@ -41,9 +41,8 @@ const Next = ({ nextRef }) => {
               I joined the class of 2029 at the University of Las Vegas, Nevada.
             </p>
             <p className="next__unlv-text">
-              Currently exploring my major, but I have plans to stick to the
-              engineering field. So far I am loving my experience at UNLV, Go
-              Rebels!
+              I'm exploring my major, but I have plans to stick to the STEM
+              field. So far I am loving my experience at UNLV, Go Rebels!
             </p>
           </div>
         </div>
