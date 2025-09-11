@@ -85,7 +85,7 @@ const Navigation = ({
             >
               Skills
             </motion.button>
-            {/* <motion.button
+            <motion.button
               onClick={() => {
                 projectsRef.current?.scrollIntoView({
                   behavior: "smooth",
@@ -116,7 +116,7 @@ const Navigation = ({
               className="nav__button"
             >
               Projects
-            </motion.button> */}
+            </motion.button>
             <motion.button
               onClick={() => {
                 contactRef.current?.scrollIntoView({
