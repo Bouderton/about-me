@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
-// import Projects from "../Projects/Projects";
+import Projects from "../Projects/Projects";
 import Next from "../Next/Next";
 import Contact from "../Contact/Contact";
 import ProgressBar from "../ProgressBar/ProgressBar";
@@ -28,7 +28,7 @@ function App() {
       />
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />
-      {/* <Projects projectsRef={projectsRef} /> */}
+      <Projects projectsRef={projectsRef} />
       <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />
       <ProgressBar />

@@ -89,7 +89,7 @@ export const hobbyList = [
 export const projectsList = [
   {
     repo: "https://github.com/Bouderton/news_explorer_frontend",
-    link: "https://newsexplorer.utdnews.com/",
+    link: "https://github.com/Bouderton/news_explorer_frontend",
     img: newsexplorer,
     live: true,
     title: "News Explorer",
@@ -99,7 +99,7 @@ export const projectsList = [
     img: wtwr,
     live: true,
     title: "What to Wear",
-    link: "https://wtwr.mindhackers.org/",
+    link: "https://github.com/Bouderton/se_project_react",
     repo: "https://github.com/Bouderton/se_project_react",
     text: "What To Wear is a responsive Full Stack Web Applicationthat fetches realtime location and weather data to suggest the user clothing items to wear.",
   },

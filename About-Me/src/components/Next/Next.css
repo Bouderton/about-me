@@ -51,7 +51,7 @@
 .next__unlv-title-container {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  /* gap: 8px; */
   margin: 0 auto;
 }
 
