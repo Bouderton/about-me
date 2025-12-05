@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import Art from "../Art/Art";
 import Next from "../Next/Next";
 import Contact from "../Contact/Contact";
 import ProgressBar from "../ProgressBar/ProgressBar";
@@ -15,6 +16,7 @@ function App() {
   const projectsRef = useRef();
   const contactRef = useRef();
   const nextRef = useRef();
+  const artRef = useRef();
 
   return (
     <div className="page">
@@ -29,6 +31,7 @@ function App() {
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />
       <Projects projectsRef={projectsRef} />
+      <Art artRef={artRef} />
       <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />
       <ProgressBar />

@@ -43,14 +43,14 @@ const About = ({ aboutRef }) => {
               viewport={{ once: true }}
               className="about__text"
             >
-              As a former Student Athlete with a Regional and State
-              Championship; Resilience, Teamwork, Communication, and Curiosity
-              are customary in my love for innovative technology, and the arts.
-              I am confident that my background in athletics, paired with my
-              passion for health, wellness, and a burning passion for learning,
-              will allow me to thrive in a working environment that shares my
-              drive to make a lasting positive impact on the world through
-              technology and innovation.
+              As a Student Athlete with a Regional and State Championship;
+              Resilience, Teamwork, Communication, and Curiosity are customary
+              in my love for innovative technology, and the arts. I am confident
+              that my background in athletics, paired with my passion for
+              health, wellness, and a burning passion for learning, will allow
+              me to thrive in a working environment that shares my drive to make
+              a lasting positive impact on the world through technology,
+              innovation, and sports.
             </motion.p>
           </div>
           <motion.img
