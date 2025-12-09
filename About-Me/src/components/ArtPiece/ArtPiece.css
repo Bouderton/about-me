@@ -3,8 +3,11 @@
 }
 
 .art-piece__img {
-  width: auto;
-  height: auto;
-  max-width: 600px;
+  width: 600px;
+  height: 300px;
+  /* max-width: 600px; */
   margin: 0 auto;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
 }

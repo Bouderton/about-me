@@ -5,6 +5,9 @@ import wtwr from "../images/wtwr.png";
 import triplepeaks from "../images/triplepeaks.png";
 import louroom from "../images/louroom.png";
 import parallaxloop from "../images/parallaxloop.jpg";
+import cyberman from "../images/cyberman.jpg";
+import finishline from "../images/finishline.png";
+import alleyway from "../images/alleyway.jpg";
 
 export const list = {
   visible: {
@@ -138,11 +141,25 @@ export const projectsList = [
 ];
 
 export const artPieceList = [
+  // link empty for now
   {
-    // title: "LOU Room",
     img: louroom,
+    link: "",
   },
   {
     img: parallaxloop,
+    link: "",
+  },
+  {
+    img: cyberman,
+    link: "",
+  },
+  {
+    img: finishline,
+    link: "",
+  },
+  {
+    img: alleyway,
+    link: "",
   },
 ];
