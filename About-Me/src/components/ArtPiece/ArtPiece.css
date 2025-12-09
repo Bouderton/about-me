@@ -2,10 +2,19 @@
   display: flex;
 }
 
-.art-piece__img {
+.art-piece__container {
+  background: #20272d;
   width: 600px;
   height: 300px;
-  /* max-width: 600px; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-piece__img {
+  width: 575px;
+  height: 275px;
   margin: 0 auto;
   overflow: hidden;
   object-fit: cover;
