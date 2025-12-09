@@ -1,5 +1,6 @@
 import "./Art.css";
 import Break from "../Break/Break";
+import ArtPiece from "../ArtPiece/ArtPiece";
 import { motion } from "motion/react";
 
 const Art = ({ artRef }) => {
@@ -17,6 +18,9 @@ const Art = ({ artRef }) => {
           </p>
           <p className="art__text">Here's a few of my favorites I've made</p>
         </div>
+      </div>
+      <div className="art__list-container">
+        <li className="art__list"></li>
       </div>
     </section>
   );
