@@ -1,0 +1,9 @@
+.art-piece {
+  display: flex;
+}
+
+.art-piece__img {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}

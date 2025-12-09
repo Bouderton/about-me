@@ -7,6 +7,7 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 50px;
+  list-style-type: none;
 }
 
 .art__title-container {
@@ -34,4 +35,11 @@
   max-width: 500px;
   font-family: "Raleway-Thin", Arial;
   font-size: 18px;
+}
+
+.art__list-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style-type: none;
 }

@@ -1,5 +1,6 @@
 import "./Art.css";
 import Break from "../Break/Break";
+import { artPieceList } from "../../utils/consts";
 import ArtPiece from "../ArtPiece/ArtPiece";
 import { motion } from "motion/react";
 
@@ -19,9 +20,15 @@ const Art = ({ artRef }) => {
           <p className="art__text">Here's a few of my favorites I've made</p>
         </div>
       </div>
-      <div className="art__list-container">
-        <li className="art__list"></li>
-      </div>
+      <ul className="art__list-container">
+        {artPieceList.map((art, index) => {
+          return (
+            <li className="art__list" custom={index} key={index}>
+              <ArtPiece img={art.img} />
+            </li>
+          );
+        })}
+      </ul>
     </section>
   );
 };

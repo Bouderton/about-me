@@ -3,6 +3,8 @@ import aroundtheus from "../images/aroundtheus.png";
 import busyday from "../images/busyday.png";
 import wtwr from "../images/wtwr.png";
 import triplepeaks from "../images/triplepeaks.png";
+import louroom from "../images/louroom.png";
+import parallaxloop from "../images/parallaxloop.jpg";
 
 export const list = {
   visible: {
@@ -132,5 +134,15 @@ export const projectsList = [
     live: true,
     link: "https://skovakina.github.io/spring-to-do/",
     img: busyday,
+  },
+];
+
+export const artPieceList = [
+  {
+    // title: "LOU Room",
+    img: louroom,
+  },
+  {
+    img: parallaxloop,
   },
 ];
