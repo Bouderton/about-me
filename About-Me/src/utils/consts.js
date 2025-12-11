@@ -8,6 +8,7 @@ import parallaxloop from "../images/parallaxloop.jpg";
 import cyberman from "../images/cyberman.jpg";
 import finishline from "../images/finishline.png";
 import alleyway from "../images/alleyway.jpg";
+import whoareyou from "../images/whoareyou.jpg";
 
 export const list = {
   visible: {
@@ -160,6 +161,10 @@ export const artPieceList = [
   },
   {
     img: alleyway,
+    link: "",
+  },
+  {
+    img: whoareyou,
     link: "",
   },
 ];
