@@ -33,4 +33,6 @@ const Art = ({ artRef }) => {
   );
 };
 
+// add clicking to fullscreen feature DUMBASS!!!
+
 export default Art;

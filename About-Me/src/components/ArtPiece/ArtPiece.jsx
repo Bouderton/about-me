@@ -8,8 +8,8 @@ const ArtPiece = ({ img }) => {
     <div className="art-piece__container">
       <div className="art-piece">
         <img
-          //   whileHover={{ scale: 1.05 }}
-          //   transition={{ duration: 0.2 }}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
           className="art-piece__img"
           src={img}
         />

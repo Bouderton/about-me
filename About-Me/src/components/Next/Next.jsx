@@ -34,7 +34,6 @@ const Next = ({ nextRef }) => {
         whileInView={{ opacity: 1, y: 0 }}
       >
         <div className="next__unlv-container">
-          {/* motion one letter at a time! */}
           <div className="next__unlv-title-container">
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -78,9 +77,12 @@ const Next = ({ nextRef }) => {
               I joined the class of 2029 at the University of Las Vegas, Nevada.
             </p>
             <p className="next__unlv-text">
-              I am majoring in Kinesiology, the science of human movement and
-              sports medicine. My minor is in Robotics and Unmanned Aircraft
-              Systems to keep my engineering gears turning. So far I am loving
+              I am majoring in Neuroscience, the science of the human brain. My
+              minor is in Robotics and Unmanned Aircraft Systems to keep my
+              engineering gears turning.
+            </p>
+            <p className="next__unlv-text">
+              I also plan to get involved in college sports. So far I am loving
               my experience at UNLV, Go Rebels!
             </p>
           </div>
