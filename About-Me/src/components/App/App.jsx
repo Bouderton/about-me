@@ -18,6 +18,23 @@ function App() {
   const nextRef = useRef();
   const artRef = useRef();
 
+  const [activeCard, setActiveCard] = useState("");
+  const [selectCard, setSelectCard] = useState({});
+  const [preview, setPreview] = useState();
+
+  // handlers
+
+  // preview card
+  const handleSelectCard = () => {
+    setActiveCard("preview");
+    setSelectCard(card);
+  };
+
+  // close preview
+  const handleClosePreview = () => {
+    setActiveCard("");
+  };
+
   return (
     <div className="page">
       <Header
@@ -31,7 +48,7 @@ function App() {
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />
       <Projects projectsRef={projectsRef} />
-      <Art artRef={artRef} />
+      <Art artRef={artRef} onSelectCard={selectCard} />
       <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />
       <ProgressBar />

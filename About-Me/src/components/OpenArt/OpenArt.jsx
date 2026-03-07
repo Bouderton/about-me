@@ -1,8 +1,8 @@
-import "OpenArt.css";
+import "./OpenArt.css";
 import { motion } from "motion/react";
 import { useState } from "react";
 
-// this could work but may be better to just integrate it directly into each image
+// this could work but may be better to just integrate it directly
 const OpenArt = ({ isOpen, artImage, onClose }) => {
   return (
     <>

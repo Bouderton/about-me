@@ -1,10 +1,11 @@
 import "./Art.css";
+import OpenArt from "../OpenArt/OpenArt";
 import Break from "../Break/Break";
 import { artPieceList } from "../../utils/consts";
 import ArtPiece from "../ArtPiece/ArtPiece";
 import { motion } from "motion/react";
 
-const Art = ({ artRef }) => {
+const Art = ({ artRef, onSelectCard }) => {
   return (
     <section className="art" ref={artRef}>
       <div className="art__container">
@@ -24,7 +25,7 @@ const Art = ({ artRef }) => {
         {artPieceList.map((art, index) => {
           return (
             <li className="art__list" custom={index} key={index}>
-              <ArtPiece img={art.img} />
+              <ArtPiece img={art.img} onClick={() => onSelectCard(art)} />
             </li>
           );
         })}
