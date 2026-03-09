@@ -21,3 +21,16 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+.art__close-button-H {
+  display: none;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  margin: 0;
+}
+
+.art__opened {
+  visibility: visible;
+  opacity: 1;
+}

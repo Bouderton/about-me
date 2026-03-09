@@ -5,7 +5,7 @@ import { artPieceList } from "../../utils/consts";
 import ArtPiece from "../ArtPiece/ArtPiece";
 import { motion } from "motion/react";
 
-const Art = ({ artRef, onSelectCard }) => {
+const Art = ({ artRef, onSelectCard, onClose, isOpen }) => {
   return (
     <section className="art" ref={artRef}>
       <div className="art__container">
@@ -25,7 +25,12 @@ const Art = ({ artRef, onSelectCard }) => {
         {artPieceList.map((art, index) => {
           return (
             <li className="art__list" custom={index} key={index}>
-              <ArtPiece img={art.img} onClick={() => onSelectCard(art)} />
+              <ArtPiece
+                img={art.img}
+                onClose={onClose}
+                isOpen={isOpen}
+                onSelectCard={onSelectCard}
+              />
             </li>
           );
         })}

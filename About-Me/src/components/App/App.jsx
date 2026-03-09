@@ -25,7 +25,8 @@ function App() {
   // handlers
 
   // preview card
-  const handleSelectCard = () => {
+  const handleSelectCard = (card) => {
+    console.log("open");
     setActiveCard("preview");
     setSelectCard(card);
   };
@@ -48,7 +49,11 @@ function App() {
       <About aboutRef={aboutRef} />
       <Skills skillsRef={skillsRef} />
       <Projects projectsRef={projectsRef} />
-      <Art artRef={artRef} onSelectCard={selectCard} />
+      <Art
+        artRef={artRef}
+        onSelectCard={handleSelectCard}
+        isOpen={activeCard === "preview"}
+      />
       <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />
       <ProgressBar />
