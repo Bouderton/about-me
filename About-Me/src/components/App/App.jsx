@@ -53,6 +53,7 @@ function App() {
         artRef={artRef}
         onSelectCard={handleSelectCard}
         isOpen={activeCard === "preview"}
+        onClose={handleClosePreview}
       />
       <Next nextRef={nextRef} />
       <Contact contactRef={contactRef} />

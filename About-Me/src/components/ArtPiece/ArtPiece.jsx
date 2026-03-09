@@ -10,6 +10,7 @@ const ArtPiece = ({ img, isOpen, onClose, onSelectCard }) => {
         <div className="art-piece">
           <button
             type="button"
+            // src={close}
             onClick={onClose}
             className={`${isOpen ? "art__close-button" : "art__close-button-H"}`}
           />

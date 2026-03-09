@@ -30,6 +30,15 @@
   margin: 0;
 }
 
+.art__close-button {
+  background: transparent url("../../images/close.svg") center no-repeat;
+  width: 35px;
+  height: 35px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 .art__opened {
   visibility: visible;
   opacity: 1;
