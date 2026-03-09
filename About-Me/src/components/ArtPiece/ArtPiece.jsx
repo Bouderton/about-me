@@ -1,16 +1,16 @@
 import "./ArtPiece.css";
+import OpenArt from "../OpenArt/OpenArt";
 // import { motion } from "motion/react";
 
 // DONT FORGET TO ADD MOTION AND ADAPTABILITY
 
 const ArtPiece = ({ img, isOpen, onClose, onSelectCard }) => {
   return (
-    <div className={`${isOpen ? " art__opened" : ""}`}>
+    <div className={`art${isOpen ? " __opened" : "-piece"}`}>
       <div className="art-piece__container">
         <div className="art-piece">
           <button
             type="button"
-            // src={close}
             onClick={onClose}
             className={`${isOpen ? "art__close-button" : "art__close-button-H"}`}
           />
@@ -20,7 +20,9 @@ const ArtPiece = ({ img, isOpen, onClose, onSelectCard }) => {
             className="art-piece__img"
             src={img}
             onClick={() => {
-              onSelectCard(img);
+              // onSelectCard(img);
+              console.log("balls");
+              return <OpenArt artImage={img} />;
             }}
           />
         </div>

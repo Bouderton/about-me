@@ -3,7 +3,7 @@ import OpenArt from "../OpenArt/OpenArt";
 import Break from "../Break/Break";
 import { artPieceList } from "../../utils/consts";
 import ArtPiece from "../ArtPiece/ArtPiece";
-import { motion } from "motion/react";
+// import { motion } from "motion/react";
 
 const Art = ({ artRef, onSelectCard, onClose, isOpen }) => {
   return (

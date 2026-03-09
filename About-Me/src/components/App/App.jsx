@@ -34,6 +34,7 @@ function App() {
   // close preview
   const handleClosePreview = () => {
     setActiveCard("");
+    console.log("closed");
   };
 
   return (
